@@ -1,5 +1,6 @@
 {
   "version": "v2.2",
+  "status_updated": "2026-10-11: 로컬 편집 완료분 done 표시(결과 img/fix/*_fix.png). P4-01·02는 Seedream 편집으로 전환(img/P4b_시드림편집.md, fix/merge_p4b.py). 독립 검수는 fix/review_plates.py로 처음부터 다시",
   "date": "2026-10-10",
   "coord_space": "원본 1440x2560 px, [x0, y0, x1, y1] (끝 포함). 1080 프레임 = x0.75",
   "order": ["clone", "cover", "recolor", "redraw_reflection", "blur", "smooth"],
@@ -8,10 +9,11 @@
   "plates": {
     "P1": {
       "source_file": "P1_1.png",
+      "moon_path_decision": "감독 결정(10/10): (760,1060)->(760,850) 유지. 아래 moon_path_check는 원본 1440 좌표와 1080 좌표를 섞어 읽은 착오(1080 기준 능선 ≈1053과 일치). 명세서 3-2 참조",
       "edits": [
-        {"id": "P1-01", "region": [845, 2298, 1312, 2413], "op": "clone", "target": "간판 가짜 글자", "how": "간판면을 무늬 없는 발광 패널로 채운다(글자 획 0)", "src": "QA", "supersedes": "AD 간판 영역(더 좁음)", "status": "todo"},
-        {"id": "P1-02", "point": [1335, 567], "radius": 10, "op": "clone", "target": "하늘 점(별·잡티)", "src": "QA", "status": "todo"},
-        {"id": "P1-03", "point": [1302, 627], "radius": 10, "op": "clone", "target": "하늘 점(별·잡티)", "src": "QA", "status": "todo"}
+        {"id": "P1-01", "region": [845, 2298, 1312, 2413], "op": "clone", "target": "간판 가짜 글자", "how": "간판면을 무늬 없는 발광 패널로 채운다(글자 획 0)", "src": "QA", "supersedes": "AD 간판 영역(더 좁음)", "status": "done"},
+        {"id": "P1-02", "point": [1335, 567], "radius": 10, "op": "clone", "target": "하늘 점(별·잡티)", "src": "QA", "status": "done"},
+        {"id": "P1-03", "point": [1302, 627], "radius": 10, "op": "clone", "target": "하늘 점(별·잡티)", "src": "QA", "status": "done"}
       ],
       "moon_path_check": {
         "ad_value": "(760,1060) -> (760,850)",
@@ -23,40 +25,41 @@
       }
     },
     "P2c": {
-      "source_file": "P2clean_1.png + P2c_1.png(재생성 중)",
+      "source_file": "P2clean_1.png + P2c_2.png(채택, 10/11). P2c_1 탈락: 곤돌라가 기구 몸통을 감쌈",
+      "balloon_center_P2c_2_1080": [562, 708], "balloon_d_P2c_2_1080": 303,
       "fact_rule": "기구 = 매끈한 연노랑 #F3E9C6 구(크레이터·월면 무늬 금지) + 링형 곤돌라(난간·그물) + 단일 케이블. '서울 마이 소울' 로고 금지",
       "balloon_center_P2c_1": [907, 1229],
       "edits": [
-        {"id": "P2-01", "region": [460, 1702, 665, 2304], "op": "clone", "target": "옛 기구 위치의 수면 반사 기둥", "how": "주변 수면 결(가로 물결)로 채우고, 주변 반사광 밝기에 맞춘다", "src": "QA", "status": "todo"},
-        {"id": "P2-02", "region": [805, 1702, 1010, 2304], "op": "redraw_reflection", "target": "새 기구(중심 x≈907) 아래 반사", "how": "#F3E9C6 25%, 폭은 기구 지름 대비 옛 기둥 비율(약 205px), 위에서 아래로 감쇠, 물결 변위. 정확한 x 범위는 P2c_1의 기구 컷아웃 폭으로 다시 잰다", "src": "QA", "status": "todo_after_P2c_1"},
-        {"id": "P2-03", "op": "check", "target": "P2c_1 기구 표면", "how": "크레이터·로고·글자가 남아 있으면 기구 면만 #F3E9C6 매끈한 구로 다시 칠한다(방사형 셰이딩)", "src": "QA", "status": "todo_after_P2c_1"}
+        {"id": "P2-01", "region": [460, 1702, 665, 2304], "op": "clone", "target": "옛 기구 위치의 수면 반사 기둥", "how": "주변 수면 결(가로 물결)로 채우고, 주변 반사광 밝기에 맞춘다", "src": "QA", "status": "done"},
+        {"id": "P2-02", "region": [805, 1702, 1010, 2304], "op": "redraw_reflection", "target": "새 기구(중심 x≈907) 아래 반사", "how": "#F3E9C6 25%, 폭은 기구 지름 대비 옛 기둥 비율(약 205px), 위에서 아래로 감쇠, 물결 변위. 정확한 x 범위는 P2c_1의 기구 컷아웃 폭으로 다시 잰다", "src": "QA", "status": "done"},
+        {"id": "P2-03", "op": "check", "target": "P2c_1 기구 표면", "how": "크레이터·로고·글자가 남아 있으면 기구 면만 #F3E9C6 매끈한 구로 다시 칠한다(방사형 셰이딩)", "src": "QA", "status": "done"}
       ]
     },
     "P4b": {
       "source_file": "P4b_1.png",
       "edits": [
-        {"id": "P4-01", "region": [0, 1261, 314, 1440], "op": "cover", "target": "수면(사실 불일치: 낙산 성곽 아래에 수면 없음)", "how": "어두운 숲 사면 + 먼 시가지 불빛으로 덮는다", "src": "QA", "supersedes": "AD 수면 영역(확장)", "status": "todo"},
-        {"id": "P4-02", "region": [0, 1216, 422, 1280], "op": "cover", "target": "부두 선", "how": "P4-01과 같은 질감으로 이어서 덮는다. 경계 페더 16px", "src": "QA", "supersedes": "AD 영역(확장)", "status": "todo"},
-        {"id": "P4-03", "region": [1220, 1777, 1327, 1955], "op": "blur", "sigma": 6, "target": "안내판 가짜 글줄", "how": "판면은 남기고 글줄만 흐리게. 1080 축소본에서 획이 보이지 않을 때까지", "src": "QA", "status": "todo"}
+        {"id": "P4-01", "region": [0, 1261, 314, 1440], "op": "cover", "target": "수면(사실 불일치: 낙산 성곽 아래에 수면 없음)", "how": "어두운 숲 사면 + 먼 시가지 불빛으로 덮는다", "src": "QA", "supersedes": "AD 수면 영역(확장)", "status": "needs_seedream"},
+        {"id": "P4-02", "region": [0, 1216, 422, 1280], "op": "cover", "target": "부두 선", "how": "P4-01과 같은 질감으로 이어서 덮는다. 경계 페더 16px", "src": "QA", "supersedes": "AD 영역(확장)", "status": "needs_seedream"},
+        {"id": "P4-03", "region": [1220, 1777, 1327, 1955], "op": "blur", "sigma": 6, "target": "안내판 가짜 글줄", "how": "판면은 남기고 글줄만 흐리게. 1080 축소본에서 획이 보이지 않을 때까지", "src": "QA", "status": "done"}
       ]
     },
     "P5c": {
       "source_file": "P5c_1.png",
       "edits": [
-        {"id": "P5-01", "region": [838, 1357, 941, 1478], "op": "blur", "sigma": 8, "target": "가운데 남성 정면 얼굴", "how": "σ8 이상. 이목구비가 식별되면 σ를 올린다", "src": "QA", "status": "todo"},
-        {"id": "P5-02", "region": [531, 1363, 627, 1453], "op": "blur", "sigma": 8, "target": "왼쪽 옆얼굴", "src": "QA", "status": "todo"},
-        {"id": "P5-03", "region": [941, 1344, 1030, 1434], "op": "blur", "sigma": 8, "target": "오른쪽 옆얼굴", "src": "QA", "status": "todo"},
-        {"id": "P5-04", "region": [883, 2074, 1440, 2368], "op": "recolor", "target": "전경의 파란 액체", "how": "무광 금속(스테인리스) 탁자면 톤. 채도 -85%, 색 #8E9399 계열, 하이라이트는 전구 반사(#FFB15C 10%)만 남긴다", "src": "QA", "status": "todo"}
+        {"id": "P5-01", "region": [838, 1357, 941, 1478], "op": "blur", "sigma": 8, "target": "가운데 남성 정면 얼굴", "how": "σ8 이상. 이목구비가 식별되면 σ를 올린다", "src": "QA", "status": "done"},
+        {"id": "P5-02", "region": [531, 1363, 627, 1453], "op": "blur", "sigma": 8, "target": "왼쪽 옆얼굴", "src": "QA", "status": "done"},
+        {"id": "P5-03", "region": [941, 1344, 1030, 1434], "op": "blur", "sigma": 8, "target": "오른쪽 옆얼굴", "src": "QA", "status": "done"},
+        {"id": "P5-04", "region": [883, 2074, 1440, 2368], "op": "recolor", "target": "전경의 파란 액체", "how": "무광 금속(스테인리스) 탁자면 톤. 채도 -85%, 색 #8E9399 계열, 하이라이트는 전구 반사(#FFB15C 10%)만 남긴다", "src": "QA", "status": "done"}
       ]
     },
     "P6": {
       "source_file": "P6_1.png",
       "edits": [
-        {"id": "P6-01", "region": [417, 2029, 458, 2052], "op": "clone", "target": "전면 엠블럼(현대차 로고 의심)", "how": "주변 차체 면으로 채운다", "src": "QA", "status": "todo"},
-        {"id": "P6-02", "region": [378, 2099, 467, 2135], "op": "blur", "sigma": 6, "target": "번호판", "how": "글자 형태가 남지 않게", "src": "QA", "status": "todo"},
-        {"id": "P6-03", "region": [22, 1632, 83, 1738], "op": "clone", "target": "정류장 표지", "src": "QA", "status": "todo"},
-        {"id": "P6-04", "region": [1376, 1843, 1411, 1920], "op": "clone", "target": "도로 표지", "src": "QA", "status": "todo"},
-        {"id": "P6-05", "op": "smooth", "target": "행선지 표시기 테두리", "how": "어두운 빈 표시창으로 보이게 테두리만 매끈하게(영역은 작업자가 표시기 bbox로 지정)", "src": "QA", "status": "todo"}
+        {"id": "P6-01", "region": [417, 2029, 458, 2052], "op": "clone", "target": "전면 엠블럼(현대차 로고 의심)", "how": "주변 차체 면으로 채운다", "src": "QA", "status": "done"},
+        {"id": "P6-02", "region": [378, 2099, 467, 2135], "op": "blur", "sigma": 6, "target": "번호판", "how": "글자 형태가 남지 않게", "src": "QA", "status": "done"},
+        {"id": "P6-03", "region": [22, 1632, 83, 1738], "op": "clone", "target": "정류장 표지", "src": "QA", "status": "done"},
+        {"id": "P6-04", "region": [1376, 1843, 1411, 1920], "op": "clone", "target": "도로 표지", "src": "QA", "status": "done"},
+        {"id": "P6-05", "op": "smooth", "target": "행선지 표시기 테두리", "how": "어두운 빈 표시창으로 보이게 테두리만 매끈하게(영역은 작업자가 표시기 bbox로 지정)", "src": "QA", "status": "done"}
       ]
     },
     "P7d": {
@@ -67,10 +70,10 @@
     "P8": {
       "source_file": "P8_1.png",
       "edits": [
-        {"id": "P8-01", "point": [220, 461], "radius": 10, "op": "clone", "target": "하늘 점", "src": "QA", "status": "todo"},
-        {"id": "P8-02", "point": [868, 271], "radius": 10, "op": "clone", "target": "하늘 점", "src": "QA", "status": "todo"},
-        {"id": "P8-03", "region": [0, 1320, 333, 1387], "region_display_1080": [0, 990, 250, 1040], "op": "clone", "target": "왼쪽 주황 잔광", "how": "06:22 사실(항해박명 직후)에 맞게 네이비 하늘로. 지평선에는 #24407A 10% 띠만 허용", "src": "QA", "status": "todo"},
-        {"id": "P8-04", "op": "measure", "target": "H8 능선", "how": "P7d와 같은 방식으로 실측해 차이가 4px 이하인지 확인", "status": "todo"}
+        {"id": "P8-01", "point": [220, 461], "radius": 10, "op": "clone", "target": "하늘 점", "src": "QA", "status": "done"},
+        {"id": "P8-02", "point": [868, 271], "radius": 10, "op": "clone", "target": "하늘 점", "src": "QA", "status": "done"},
+        {"id": "P8-03", "region": [0, 1320, 333, 1387], "region_display_1080": [0, 990, 250, 1040], "op": "clone", "target": "왼쪽 주황 잔광", "how": "06:22 사실(항해박명 직후)에 맞게 네이비 하늘로. 지평선에는 #24407A 10% 띠만 허용", "src": "QA", "status": "done"},
+        {"id": "P8-04", "op": "measure", "target": "H8 능선", "how": "P7d와 같은 방식으로 실측해 차이가 4px 이하인지 확인", "status": "done"}
       ]
     },
     "passed": ["P3", "P2clean 글자·얼굴", "P7d 글자", "P8 글자", "P5c 술 관련 요소"]
