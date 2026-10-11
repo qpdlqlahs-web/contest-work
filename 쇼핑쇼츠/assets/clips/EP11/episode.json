@@ -44,7 +44,7 @@
   "store": "네이버",
   "name": "송강 겨울 쿠션 털 거실화 실내화 슬리퍼 (SongGang)",
   "short": "송강 겨울 쿠션 털 거실화",
-  "role": "'괜찮다'는 부모님께",
+  "role": "양말 세 겹 신는 부모님께",
   "price": 10900,
   "reviews": 81,
   "rating": 4.86,
@@ -428,5 +428,6 @@
   "aff_type": "쿠팡파트너스",
   "link": "https://link.coupang.com/a/hJqyjAdTXg"
  },
- "ambience_vol": 0.06
+ "ambience_vol": 0.06,
+ "ppl_role_strong": true
 }

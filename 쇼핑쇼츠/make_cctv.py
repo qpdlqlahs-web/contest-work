@@ -685,8 +685,9 @@ def ppl_card(out: Image.Image, ep: dict, fonts: Fonts, cfg: dict, t: float, plat
         return
     font, lines = fit(d, fonts, "heavy", p.get("short", p["name"]), x1 - x0 - 80, 2, 66, 46)
     y = draw_lines(d, lines, font, W // 2, y, c["ink"]) + 6
-    font, lines = fit(d, fonts, "bold", p["role"], x1 - x0 - 80, 2, 44, 34)
-    y = draw_lines(d, lines, font, W // 2, y, c["muted"]) + 34
+    strong = ep.get("ppl_role_strong")   # true: role 줄을 이야기와 상품을 잇는 문장으로 강조 (EP11 "양말 세 겹 신는 부모님께")
+    font, lines = fit(d, fonts, "heavy" if strong else "bold", p["role"], x1 - x0 - 80, 2, 48 if strong else 44, 34)
+    y = draw_lines(d, lines, font, W // 2, y, c["accent"] if strong else c["muted"]) + 34
     d.text((W // 2, y), f"{p['price']:,}원", font=fonts.get("heavy", 112), fill=c["accent"], anchor="ma")
     y += 150
     rv = f"리뷰 {p['reviews']:,}개"
