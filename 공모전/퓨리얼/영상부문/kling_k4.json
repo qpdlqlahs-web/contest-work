@@ -1,0 +1,39 @@
+[
+  {
+    "created_at": "2026-10-09T02:33:09.024609Z",
+    "display_name": "Kling v3.0",
+    "id": "6d0169f2-1a60-4063-aba0-14c1efe268e5",
+    "job_type": "kling3_0",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "9:16",
+      "cfg_scale": 0.5,
+      "duration": 5,
+      "enhance_prompt": false,
+      "height": 1280,
+      "kling_element_ids": [],
+      "kling_elements": [],
+      "medias": [
+        {
+          "data": {
+            "id": "d2b2d456-6d2e-494b-9aef-02e25ea7bd08",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3CbtW1SER8KG1q2elNWQPVTsX14/d2b2d456-6d2e-494b-9aef-02e25ea7bd08_resize.jpg"
+          },
+          "role": "start_image"
+        }
+      ],
+      "mode": "std",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "Locked-off static shot through the open front door. The three neighbors stand on the landing with their feet planted. In one simultaneous motion they lift their items, the pot, the tumbler and the kettle, from waist height up to chest height and hold them there, with hopeful, slightly embarrassed smiles and small nods. The kettle's cord stays tightly coiled in the man's hand. The man in the out-of-focus foreground does not move. No walking, no stepping forward, no entering the apartment, door does not move, no cord swinging, no dangling cable, no lids opening, objects do not morph, no extra people, no text.",
+      "reference_elements": [],
+      "sound": "off",
+      "width": 720
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3CbtW1SER8KG1q2elNWQPVTsX14/hf_20261009_023309_6d0169f2-1a60-4063-aba0-14c1efe268e5.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_3CbtW1SER8KG1q2elNWQPVTsX14/hf_20261009_023309_6d0169f2-1a60-4063-aba0-14c1efe268e5_thumbnail.webp"
+  }
+]

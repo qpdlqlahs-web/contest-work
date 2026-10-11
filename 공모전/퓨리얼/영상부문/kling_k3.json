@@ -1,0 +1,39 @@
+[
+  {
+    "created_at": "2026-10-09T02:33:07.891178Z",
+    "display_name": "Kling v3.0",
+    "id": "183f48dc-d3ac-4197-8e87-e4abb5b128d5",
+    "job_type": "kling3_0",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "9:16",
+      "cfg_scale": 0.5,
+      "duration": 5,
+      "enhance_prompt": false,
+      "height": 1280,
+      "kling_element_ids": [],
+      "kling_elements": [],
+      "medias": [
+        {
+          "data": {
+            "id": "a9fd937c-cd12-421f-8bad-1b49163f23b0",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3CbtW1SER8KG1q2elNWQPVTsX14/a9fd937c-cd12-421f-8bad-1b49163f23b0_resize.jpg"
+          },
+          "role": "start_image"
+        }
+      ],
+      "mode": "std",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "Static camera, optionally a very slow push-in of no more than 3 percent. The family at the table talk and laugh naturally: the father laughs with his shoulders shaking, the mother turns her head toward him smiling, the child giggles and leans toward her mother. Hands stay resting on the table; the glasses stay exactly where they are; hands do not change shape. The neighbors in the foreground stay almost still with only slight breathing. The soft daylight stays steady. No drinking, no lifting glasses, no passing objects, no standing up, no walking, no clapping, no hand gestures, no faces changing identity, no lights turning on, no camera orbit, no text.",
+      "reference_elements": [],
+      "sound": "off",
+      "width": 720
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3CbtW1SER8KG1q2elNWQPVTsX14/hf_20261009_023307_183f48dc-d3ac-4197-8e87-e4abb5b128d5.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_3CbtW1SER8KG1q2elNWQPVTsX14/hf_20261009_023307_183f48dc-d3ac-4197-8e87-e4abb5b128d5_thumbnail.webp"
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "created_at": "2026-10-09T05:32:01.585277Z",
+    "display_name": "Kling v3.0",
+    "id": "c2ca8e51-c112-4c7e-9922-6c7d0c3b0a18",
+    "job_type": "kling3_0",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "9:16",
+      "cfg_scale": 0.5,
+      "duration": 3,
+      "enhance_prompt": false,
+      "height": 1280,
+      "kling_element_ids": [],
+      "kling_elements": [],
+      "medias": [
+        {
+          "data": {
+            "id": "6b688106-881c-42f0-8a1e-dbce735b0363",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3CbtW1SER8KG1q2elNWQPVTsX14/6b688106-881c-42f0-8a1e-dbce735b0363.png"
+          },
+          "role": "start_image"
+        }
+      ],
+      "mode": "std",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "Locked-off static shot, no camera movement. The man in navy pinstripe pajamas crouches and peers curiously at the cream appliance on the counter: he slowly leans a little closer, adjusts his glasses with one finger, and tilts his head with a bored 'nothing else to do...' look. The appliance stays completely still and unchanged; he does not touch it. No walking, no standing up, no lever movement, no appliance morphing, no lights turning on, no text.",
+      "reference_elements": [],
+      "sound": "off",
+      "width": 720
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3CbtW1SER8KG1q2elNWQPVTsX14/hf_20261009_053201_c2ca8e51-c112-4c7e-9922-6c7d0c3b0a18.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_3CbtW1SER8KG1q2elNWQPVTsX14/hf_20261009_053201_c2ca8e51-c112-4c7e-9922-6c7d0c3b0a18_thumbnail.webp"
+  }
+]

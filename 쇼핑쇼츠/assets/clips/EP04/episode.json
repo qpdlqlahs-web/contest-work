@@ -1,0 +1,222 @@
+{
+  "title": "새벽 3시 주방 CCTV에 찍힌 젓가락의 정체",
+  "titles": [
+    "새벽 3시 주방 CCTV에 찍힌 젓가락의 정체",
+    "주방 CCTV 돌려봤다가 젓가락 고수 발견",
+    "우리 집 주방 보안관의 야간 근무 (CCTV)"
+  ],
+  "hashtags": [
+    "#주방CCTV",
+    "#유기수저",
+    "#집들이선물",
+    "#병맛",
+    "#새벽3시CCTV"
+  ],
+  "pinned_comment": "다음 화 경비원은 누구로 할까요? 우리 집에 들이고 싶은 물건을 댓글로 추천해 주세요 👇",
+  "cam": "CAM 04",
+  "date": "2026-10-04",
+  "clock": "03:17:58",
+  "price_date": "10/4",
+  "ppl_label": "PPL 타임",
+  "ppl_notes": [
+    "※ 효과: 기분 탓",
+    "※ 리뷰 수: 진짜"
+  ],
+  "ppl_cta": {
+    "youtube": "링크는 영상 설명란에",
+    "clip": "화면 스티커를 눌러 보세요"
+  },
+  "ppl_headline": "주방 보안관 채용 (택1)",
+  "product": {
+    "store": "네이버",
+    "name": "거창유기 방짜유기 궁중 수저 2인 세트",
+    "short": "거창유기 방짜 수저 2인",
+    "role": "우리 집 주방 보안관 채용",
+    "price": 35900,
+    "reviews": 800,
+    "rating": 4.9,
+    "aff_type": "쇼핑커넥트",
+    "link": "https://naver.me/Gqf4L3zY"
+  },
+  "product_alt": {
+    "store": "쿠팡",
+    "name": "오부자 방짜유기 민자 수저 2인 세트",
+    "short": "오부자 방짜 수저 2인",
+    "price": 38000,
+    "reviews": 727,
+    "aff_type": "쿠팡파트너스",
+    "link": "https://link.coupang.com/a/hylakZXtSK"
+  },
+  "segments": [
+    {
+      "name": "인트로(감지)",
+      "type": "image",
+      "file": "master.png",
+      "dur": 0.9,
+      "alerts": [
+        {
+          "at": 0.2,
+          "box": [
+            0.3,
+            0.35,
+            0.85,
+            0.7
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "text": "새벽 3시, 우리 집 주방 CCTV",
+          "at": 0.0,
+          "y": 1230
+        }
+      ],
+      "preview_at": 0.4
+    },
+    {
+      "name": "날파리",
+      "type": "video",
+      "file": "EP04_hit_fly.mp4",
+      "start": 0.6,
+      "dur": 2.8,
+      "hits": [
+        0.7
+      ],
+      "captions": [
+        {
+          "text": "액운 ①  음식물 노리는 날파리",
+          "at": 0.0,
+          "y": 1230
+        }
+      ],
+      "stamps": [
+        {
+          "text": "포획",
+          "at": 0.8,
+          "x": 540,
+          "y": 640
+        }
+      ],
+      "preview_at": 1.3
+    },
+    {
+      "name": "배달앱",
+      "type": "video",
+      "file": "EP04_hit_phone.mp4",
+      "start": 0.6,
+      "dur": 2.6,
+      "hits": [
+        1.0
+      ],
+      "captions": [
+        {
+          "text": "액운 ②  새벽 배달앱 알림",
+          "at": 0.0,
+          "y": 1230
+        }
+      ],
+      "stamps": [
+        {
+          "text": "포획",
+          "at": 1.1,
+          "x": 540,
+          "y": 640
+        }
+      ],
+      "preview_at": 1.3
+    },
+    {
+      "name": "야식",
+      "type": "video",
+      "file": "EP04_hit_cake.mp4",
+      "start": 1.6,
+      "dur": 3.2,
+      "hits": [
+        0.8,
+        2.9
+      ],
+      "captions": [
+        {
+          "text": "액운 ③  냉장고 속 케이크",
+          "at": 0.0,
+          "y": 1230
+        }
+      ],
+      "stamps": [
+        {
+          "text": "반납",
+          "at": 3.0,
+          "x": 540,
+          "y": 640
+        }
+      ],
+      "preview_at": 1.3
+    },
+    {
+      "name": "다시보기",
+      "type": "video",
+      "file": "EP04_hit_fly.mp4",
+      "start": 1.0,
+      "dur": 1.6,
+      "speed": 0.5,
+      "zoom": {
+        "at": 0.0,
+        "dur": 0.6,
+        "to": 1.4,
+        "cx": 0.5,
+        "cy": 0.42
+      },
+      "hits": [
+        0.6
+      ],
+      "audio_vol": 1.2,
+      "preview_at": 0.9
+    },
+    {
+      "name": "두루",
+      "type": "video",
+      "file": "EP04_intruder.mp4",
+      "start": 0.3,
+      "dur": 4.6,
+      "zoom": {
+        "at": 0.15,
+        "dur": 0.4,
+        "to": 1.3,
+        "cx": 0.45,
+        "cy": 0.6
+      },
+      "captions": [
+        {
+          "text": "…액운 ④?",
+          "at": 0.1,
+          "y": 960
+        }
+      ],
+      "stamps": [
+        {
+          "text": "출입 금지",
+          "at": 2.0,
+          "x": 520,
+          "y": 640
+        }
+      ],
+      "sfx": [
+        {
+          "file": "question.wav",
+          "at": 0.1,
+          "vol": 1.0
+        }
+      ],
+      "preview_at": 3.4
+    },
+    {
+      "name": "PPL",
+      "type": "image",
+      "file": "master.png",
+      "dur": 3.6,
+      "dim": 0.6,
+      "ppl": true,
+      "preview_at": 1.8
+    }
+  ]
+}

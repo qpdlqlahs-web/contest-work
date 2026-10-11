@@ -1,0 +1,221 @@
+{
+  "title": "새벽 3시 욕실 CCTV에 찍힌 수건의 정체",
+  "titles": [
+    "새벽 3시 욕실 CCTV에 찍힌 수건의 정체",
+    "욕실 CCTV 돌려봤다가 수건한테 반함",
+    "우리 집 욕실 경호원의 야간 근무 (CCTV)"
+  ],
+  "hashtags": [
+    "#욕실CCTV",
+    "#호텔수건",
+    "#집들이선물",
+    "#병맛",
+    "#새벽3시CCTV"
+  ],
+  "pinned_comment": "다음 화 경비원은 누구로 할까요? 우리 집에 들이고 싶은 물건을 댓글로 추천해 주세요 👇",
+  "cam": "CAM 03",
+  "date": "2026-10-04",
+  "clock": "03:16:41",
+  "price_date": "10/4",
+  "ppl_label": "PPL 타임",
+  "ppl_notes": [
+    "※ 효과: 기분 탓",
+    "※ 리뷰 수: 진짜"
+  ],
+  "ppl_cta": {
+    "youtube": "링크는 영상 설명란에",
+    "clip": "화면 스티커를 눌러 보세요"
+  },
+  "ppl_headline": "욕실 경호원 채용 (택1)",
+  "product": {
+    "store": "네이버",
+    "name": "테리파머 핀스트라이프 30수 200g 호텔수건 5장",
+    "short": "테리파머 호텔수건 5장",
+    "role": "우리 집 욕실 경호원 채용",
+    "price": 27900,
+    "reviews": 2187,
+    "rating": 4.81,
+    "aff_type": "쇼핑커넥트",
+    "link": "https://naver.me/Fpwldjy2"
+  },
+  "product_alt": {
+    "store": "쿠팡",
+    "name": "코튼리빙 40수 코마사 호텔 수건 200g 10개",
+    "short": "코튼리빙 호텔수건 10장",
+    "price": 35400,
+    "reviews": 11630,
+    "aff_type": "쿠팡파트너스",
+    "link": "https://link.coupang.com/a/hyk9bIyMqi"
+  },
+  "segments": [
+    {
+      "name": "인트로(감지)",
+      "type": "image",
+      "file": "master.png",
+      "dur": 0.9,
+      "alerts": [
+        {
+          "at": 0.2,
+          "box": [
+            0.25,
+            0.2,
+            0.75,
+            0.6
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "text": "새벽 3시, 우리 집 욕실 CCTV",
+          "at": 0.0,
+          "y": 1230
+        }
+      ],
+      "preview_at": 0.4
+    },
+    {
+      "name": "머리카락",
+      "type": "video",
+      "file": "EP03_hit_hair.mp4",
+      "start": 0.8,
+      "dur": 2.6,
+      "hits": [
+        1.0
+      ],
+      "captions": [
+        {
+          "text": "액운 ①  배수구 머리카락",
+          "at": 0.0,
+          "y": 1230
+        }
+      ],
+      "stamps": [
+        {
+          "text": "제거",
+          "at": 1.1,
+          "x": 540,
+          "y": 640
+        }
+      ],
+      "preview_at": 1.3
+    },
+    {
+      "name": "찬바람",
+      "type": "video",
+      "file": "EP03_hit_cold.mp4",
+      "start": 0.3,
+      "dur": 2.6,
+      "hits": [
+        1.0
+      ],
+      "captions": [
+        {
+          "text": "액운 ②  샤워 후 찬바람",
+          "at": 0.0,
+          "y": 1230
+        }
+      ],
+      "stamps": [
+        {
+          "text": "차단",
+          "at": 1.1,
+          "x": 540,
+          "y": 640
+        }
+      ],
+      "preview_at": 1.3
+    },
+    {
+      "name": "물웅덩이",
+      "type": "video",
+      "file": "EP03_hit_puddle.mp4",
+      "start": 0.2,
+      "dur": 2.6,
+      "hits": [
+        1.0
+      ],
+      "captions": [
+        {
+          "text": "액운 ③  양말 적시는 물웅덩이",
+          "at": 0.0,
+          "y": 1230
+        }
+      ],
+      "stamps": [
+        {
+          "text": "흡수",
+          "at": 1.1,
+          "x": 540,
+          "y": 640
+        }
+      ],
+      "preview_at": 1.3
+    },
+    {
+      "name": "다시보기",
+      "type": "video",
+      "file": "EP03_hit_cold.mp4",
+      "start": 1.0,
+      "dur": 1.6,
+      "speed": 0.5,
+      "zoom": {
+        "at": 0.0,
+        "dur": 0.6,
+        "to": 1.4,
+        "cx": 0.66,
+        "cy": 0.5
+      },
+      "hits": [
+        0.6
+      ],
+      "audio_vol": 1.2,
+      "preview_at": 0.9
+    },
+    {
+      "name": "두루",
+      "type": "video",
+      "file": "EP03_intruder.mp4",
+      "start": 0.4,
+      "dur": 4.6,
+      "zoom": {
+        "at": 0.15,
+        "dur": 0.4,
+        "to": 1.3,
+        "cx": 0.45,
+        "cy": 0.6
+      },
+      "captions": [
+        {
+          "text": "…액운 ④?",
+          "at": 0.1,
+          "y": 960
+        }
+      ],
+      "stamps": [
+        {
+          "text": "출입 금지",
+          "at": 3.1,
+          "x": 520,
+          "y": 640
+        }
+      ],
+      "sfx": [
+        {
+          "file": "question.wav",
+          "at": 0.1,
+          "vol": 1.0
+        }
+      ],
+      "preview_at": 3.4
+    },
+    {
+      "name": "PPL",
+      "type": "image",
+      "file": "master.png",
+      "dur": 3.6,
+      "dim": 0.6,
+      "ppl": true,
+      "preview_at": 1.8
+    }
+  ]
+}

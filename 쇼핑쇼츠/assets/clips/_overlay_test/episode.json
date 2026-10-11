@@ -1,0 +1,163 @@
+{
+ "title": "overlay test",
+ "cam": "CLOSET CAM",
+ "date": "2026-10-08",
+ "clock": "03:14:07",
+ "price_date": "10/8",
+ "ppl_label": "PPL 타임",
+ "bgm": "bgm_sneaky.wav",
+ "bgm_vol": 0.3,
+ "site_label": "밤살림공사 제3현장 · 작업 #009",
+ "ai_label": true,
+ "ai_notice_ppl": true,
+ "replay_y": 300,
+ "ppl_cta": {
+  "youtube": "링크는 영상 설명란에"
+ },
+ "ppl_notes": [
+  "※ 고양이: 내일 또 털 예정",
+  "※ 리뷰 수: 진짜"
+ ],
+ "product": {
+  "store": "네이버",
+  "name": "테스트 롤러",
+  "short": "테스트 롤러",
+  "role": "코트 재포장 공사 장비",
+  "price": 9900,
+  "reviews": 123,
+  "rating": 4.8,
+  "aff_type": "쇼핑커넥트",
+  "link": "x"
+ },
+ "segments": [
+  {
+   "name": "훅",
+   "type": "image",
+   "file": "A.png",
+   "dur": 3.0,
+   "zoom": {
+    "from": 2.5,
+    "to": 1.0,
+    "at": 0.8,
+    "dur": 0.6,
+    "cx": 0.5,
+    "cy": 0.42
+   },
+   "zoom_label": "ZOOM x2.5 · 판독",
+   "dissolve": {
+    "file": "clip.mp4",
+    "start": 0.0,
+    "at": 0.8,
+    "dur": 0.6
+   },
+   "captions": [
+    {
+     "text": "03:14 코트 포장 공사",
+     "at": 0.2,
+     "radio": true
+    }
+   ],
+   "preview_at": 0.3
+  },
+  {
+   "name": "작전",
+   "type": "image",
+   "file": "A.png",
+   "dur": 2.2,
+   "captions": [
+    {
+     "text": "본부, 털 도로 착공한다",
+     "at": 0.0,
+     "radio": true,
+     "badge": "①"
+    }
+   ],
+   "preview_at": 1.0
+  },
+  {
+   "name": "교차",
+   "type": "image",
+   "files": [
+    "N1.png",
+    "N2.png",
+    "N3.png"
+   ],
+   "swap": 0.2,
+   "dur": 3.0,
+   "hold_last": 1.0,
+   "hold_mute": true,
+   "hold_zoom": 0.04,
+   "tags": [
+    {
+     "text": "뭉치 · 공사 가축",
+     "at": 0.1,
+     "x": 640,
+     "y": 820
+    }
+   ],
+   "captions": [
+    {
+     "text": "막내 이탈! 꼬리 잡음",
+     "at": 0.0,
+     "radio": true,
+     "badge": "③"
+    }
+   ],
+   "preview_at": 2.5
+  },
+  {
+   "name": "일지",
+   "type": "image",
+   "file": "M.png",
+   "dur": 1.5,
+   "dim": 0.6,
+   "worklog": {
+    "title": "작업일지 #009",
+    "lines": [
+     "작업: 코트 포장 공사",
+     "결과: 원상복구"
+    ],
+    "approval": [
+     "반장",
+     "본부"
+    ],
+    "at": 0.0
+   },
+   "stamps": [
+    {
+     "text": "반려",
+     "at": 0.45,
+     "x": 760,
+     "y": 1030,
+     "font": "doc",
+     "shape": "circle"
+    }
+   ],
+   "preview_at": 1.2
+  },
+  {
+   "name": "다시보기",
+   "type": "image",
+   "file": "N1.png",
+   "dur": 1.2,
+   "speed": 0.5,
+   "captions": [
+    {
+     "text": "다시 보기: 범인 확정",
+     "at": 0.0,
+     "radio": true
+    }
+   ],
+   "preview_at": 0.4
+  },
+  {
+   "name": "PPL",
+   "type": "image",
+   "file": "M.png",
+   "dur": 3.0,
+   "ppl": true,
+   "dim": 0.7,
+   "preview_at": 2.0
+  }
+ ]
+}

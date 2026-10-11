@@ -1,0 +1,39 @@
+[
+  {
+    "created_at": "2026-10-09T05:32:07.042626Z",
+    "display_name": "Kling v3.0",
+    "id": "491e8c90-9bcd-4428-84e9-8c183d9e5a59",
+    "job_type": "kling3_0",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "9:16",
+      "cfg_scale": 0.5,
+      "duration": 3,
+      "enhance_prompt": false,
+      "height": 1280,
+      "kling_element_ids": [],
+      "kling_elements": [],
+      "medias": [
+        {
+          "data": {
+            "id": "a06a8d87-22c2-4f81-8033-9f1792ddcb15",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3CbtW1SER8KG1q2elNWQPVTsX14/a06a8d87-22c2-4f81-8033-9f1792ddcb15_resize.jpg"
+          },
+          "role": "start_image"
+        }
+      ],
+      "mode": "std",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "Static camera. The power has just come back: the six people freeze with their glasses still raised, look up at the bright ceiling light, and their faces fall into a deflated 'aah...' as their shoulders drop slightly together. Glasses stay apart from each other and stay raised. No clinking, no drinking, no walking, no lights flickering off, no identity change, no camera movement, no text.",
+      "reference_elements": [],
+      "sound": "off",
+      "width": 720
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3CbtW1SER8KG1q2elNWQPVTsX14/hf_20261009_053207_491e8c90-9bcd-4428-84e9-8c183d9e5a59.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_3CbtW1SER8KG1q2elNWQPVTsX14/hf_20261009_053207_491e8c90-9bcd-4428-84e9-8c183d9e5a59_thumbnail.webp"
+  }
+]

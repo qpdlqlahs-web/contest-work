@@ -1,0 +1,220 @@
+{
+  "title": "새벽 3시 현관 CCTV에 찍힌 명태의 정체",
+  "titles": [
+    "새벽 3시 현관 CCTV에 찍힌 명태의 정체",
+    "현관 CCTV 돌려봤다가 명태한테 반함",
+    "우리 집 현관 경비원의 야간 근무 (CCTV)"
+  ],
+  "hashtags": [
+    "#현관CCTV",
+    "#액막이명태",
+    "#집들이선물",
+    "#병맛",
+    "#줄세움"
+  ],
+  "pinned_comment": "다음 화 경비원은 누구로 할까요? 우리 집에 들이고 싶은 물건을 댓글로 추천해 주세요 👇",
+  "cam": "CAM 01",
+  "date": "2026-10-03",
+  "clock": "03:14:07",
+  "price_date": "10/3",
+  "ppl_label": "PPL 타임",
+  "ppl_notes": [
+    "※ 효과: 기분 탓",
+    "※ 리뷰 수: 진짜"
+  ],
+  "ppl_cta": {
+    "youtube": "링크는 채널 프로필에",
+    "clip": "화면 스티커를 눌러 보세요"
+  },
+  "ambience_vol": 1.0,
+  "product": {
+    "name": "행운 현관 액막이 명태",
+    "role": "우리 집 현관 경비원 채용",
+    "price": 13900,
+    "reviews": 1397,
+    "rating": 4.91,
+    "aff_type": "쇼핑커넥트",
+    "link": "https://naver.me/xHEI4Ps4",
+    "store": "네이버"
+  },
+  "segments": [
+    {
+      "name": "인트로(감지)",
+      "type": "image",
+      "file": "master.png",
+      "dur": 0.9,
+      "alerts": [
+        {
+          "at": 0.2,
+          "box": [
+            0.22,
+            0.3,
+            0.78,
+            0.62
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "text": "새벽 3시, 우리 집 현관 CCTV",
+          "at": 0.0,
+          "y": 1230
+        }
+      ],
+      "preview_at": 0.4
+    },
+    {
+      "name": "카드값",
+      "type": "video",
+      "file": "EP01_hit_bill.mp4",
+      "start": 0.3,
+      "dur": 3.0,
+      "hits": [
+        0.88
+      ],
+      "captions": [
+        {
+          "text": "액운 ①  카드값",
+          "at": 0.0,
+          "y": 1230
+        }
+      ],
+      "stamps": [
+        {
+          "text": "차단",
+          "at": 0.95,
+          "x": 540,
+          "y": 640
+        }
+      ],
+      "preview_at": 1.3
+    },
+    {
+      "name": "월요일",
+      "type": "video",
+      "file": "EP01_hit_calendar.mp4",
+      "start": 0.6,
+      "dur": 2.8,
+      "hits": [
+        1.02
+      ],
+      "captions": [
+        {
+          "text": "액운 ②  월요일",
+          "at": 0.0,
+          "y": 1230
+        }
+      ],
+      "stamps": [
+        {
+          "text": "차단",
+          "at": 1.1,
+          "x": 540,
+          "y": 640
+        }
+      ],
+      "preview_at": 1.4
+    },
+    {
+      "name": "치킨",
+      "type": "video",
+      "file": "EP01_hit_chicken.mp4",
+      "start": 0.8,
+      "dur": 2.6,
+      "hits": [
+        1.08
+      ],
+      "captions": [
+        {
+          "text": "액운 ③  다이어트는 내일부터",
+          "at": 0.0,
+          "y": 1230
+        }
+      ],
+      "stamps": [
+        {
+          "text": "차단",
+          "at": 1.15,
+          "x": 540,
+          "y": 640
+        }
+      ],
+      "preview_at": 1.5
+    },
+    {
+      "name": "다시보기",
+      "type": "video",
+      "file": "EP01_hit_chicken.mp4",
+      "start": 1.5,
+      "dur": 1.6,
+      "speed": 0.5,
+      "zoom": {
+        "at": 0.0,
+        "dur": 0.6,
+        "to": 1.4,
+        "cx": 0.5,
+        "cy": 0.42
+      },
+      "hits": [
+        0.7
+      ],
+      "audio_vol": 1.2,
+      "preview_at": 0.8
+    },
+    {
+      "name": "두루",
+      "type": "video",
+      "file": "EP01_intruder.mp4",
+      "start": 0.0,
+      "dur": 3.6,
+      "zoom": {
+        "at": 0.15,
+        "dur": 0.4,
+        "to": 1.5,
+        "cx": 0.48,
+        "cy": 0.58
+      },
+      "captions": [
+        {
+          "text": "…액운 ④?",
+          "at": 0.1,
+          "y": 960
+        }
+      ],
+      "stamps": [
+        {
+          "text": "출입 금지",
+          "at": 0.9,
+          "x": 520,
+          "y": 640
+        }
+      ],
+      "sfx": [
+        {
+          "file": "question.wav",
+          "at": 0.1,
+          "vol": 1.0
+        }
+      ],
+      "preview_at": 1.3
+    },
+    {
+      "name": "PPL",
+      "type": "image",
+      "file": "master.png",
+      "dur": 3.6,
+      "dim": 0.6,
+      "ppl": true,
+      "preview_at": 1.8
+    }
+  ],
+  "product_alt": {
+    "store": "쿠팡",
+    "name": "복소리 진공 액막이 황태 북어",
+    "price": 15740,
+    "reviews": 1022,
+    "aff_type": "쿠팡파트너스",
+    "link": "https://link.coupang.com/a/hybOYCXN5E"
+  },
+  "ppl_headline": "우리 집 현관 경비원 채용 (2곳 중 택1)"
+}

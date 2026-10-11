@@ -1,0 +1,807 @@
+{
+  "pinned_comment": "이 포스팅은 네이버 쇼핑 커넥트 활동의 일환으로, 판매 발생 시 수수료를 제공받습니다.\n이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\n영상은 AI 상황극(연출)입니다.\n\n고양이 의자 위 소인 공사팀을 판독해 봤습니다. 다음엔 어디를 판독해 볼까요? 장소 제보 받아요 👇\n판독 요청: 아침 장면에 몇 명?",
+  "price_date": "10/8",
+  "ppl_label": "PPL 타임",
+  "ppl_cta": {
+    "youtube": "링크는 영상 설명란에",
+    "clip": "화면 스티커를 눌러 보세요"
+  },
+  "ir_look": true,
+  "bgm": "bgm_sneaky.wav",
+  "bgm_vol": 0.5,
+  "title": "[AI 상황극] 고양이 털 제거, 새벽 3시 CCTV 판독 결과 '사람 3명?'",
+  "titles": [
+    "[AI 상황극] 고양이 털 제거, 새벽 3시 CCTV 판독 결과 '사람 3명?'",
+    "[AI 상황극] 털 롤러가 혼자 굴러간 새벽 3시, 판독해 보니",
+    "[AI 상황극] 고양이 의자 털, 새벽 3시 소인 공사팀 판독 기록"
+  ],
+  "aeo_line": "고양이 털이 옷에 붙었을 때는 손잡이형 재사용 롤러(돌돌이)를 옷 표면에 굴려 털을 롤러 케이스에 모아 담는 방식으로 정리할 수 있습니다.",
+  "hashtags": [
+    "#AI상황극",
+    "#고양이털제거",
+    "#털롤러",
+    "#펫돌돌이",
+    "#옷방정리",
+    "#새벽3시CCTV"
+  ],
+  "cam": "CLOSET CAM",
+  "date": "2026-10-12",
+  "clock": "03:14:20",
+  "site_label": {
+    "text": "밤살림공사 제3현장 · 작업 #009",
+    "from": 3.2,
+    "until": 9.8
+  },
+  "ai_label": {
+    "big": {
+      "text": "AI 상황극",
+      "size": 44,
+      "until": 3.0
+    },
+    "text": "AI 연출",
+    "size": 34,
+    "alpha": 190
+  },
+  "replay_y": 300,
+  "ppl_notes": [
+    "※ 고양이: 내일 또 털 예정",
+    "※ 리뷰 수: 진짜 (네이버 85 · 쿠팡 43)"
+  ],
+  "ppl_headline": "털 롤러 공사 크루 채용 (택1)",
+  "bgm_mute": [
+    [
+      10.9,
+      11.7
+    ],
+    [
+      22.5,
+      23.3
+    ]
+  ],
+  "product": {
+    "store": "네이버",
+    "name": "일본 파쿠파쿠 롤러 강아지 고양이 털제거 돌돌이",
+    "short": "파쿠파쿠 털 롤러",
+    "role": "털 롤러 공사 크루 채용",
+    "price": 16800,
+    "reviews": 85,
+    "rating": 4.79,
+    "aff_type": "쇼핑커넥트",
+    "link": "https://naver.me/G0punIcM"
+  },
+  "product_alt": {
+    "store": "쿠팡",
+    "name": "반영구 펫 돌돌이 미세털 강력 제거 고양이 털 제거기",
+    "short": "반영구 펫 돌돌이",
+    "price": 11400,
+    "reviews": 43,
+    "aff_type": "쿠팡파트너스",
+    "link": "https://link.coupang.com/a/hFHHjYiv6G"
+  },
+  "_todo": [
+    "[v6.1 미구현 키, editor 병행 구현 중] type:'enhance'(판독 UI: frames/frame_swap/crop/panel/stages/ui/src/freeze/inserts/bg/caption_y), ai_label 객체형(big{text,size,until}; 현재 make_cctv.py는 문자열만 읽음), worklog.evidence(증거 사진), desc_first_line·thumbnail·upload_checks(렌더 키 아님, publisher/QA용 메타). 구현 전에는 렌더 금지.",
+    "frame_drop은 기존 키 재사용: 반전_b(12.2초) 시작에 '노이즈 바 2프레임 + 시계 1칸 점프'로 나오게 editor가 확인(현 함수가 노이즈 바만 하면 시계 점프 추가). P5 프롬프트에 'lying down halfway, front legs bending' 포함은 artist 몫.",
+    "crop [0,0,0,0](판독1)는 E1 생성 후 editor가 채운다. 판독2 crop [225,370,215,131]은 QA의 T1 프레임 실측 후 조정. 감지 박스 좌표(훅 롤러, 들킴 고양이 머리, 다시보기 엉덩이, 아침 드럼), 명찰 tags 좌표, 도장 위치는 이미지 확정 후 조정.",
+    "파일명 가정(artist와 맞출 것): EP09_V1/V3/V4/V5.mp4, E1a/E1b, P2a~P2d, M6, N1_crew/N2_crew/N3_crew(장식 피규어처럼 굳은 크루 셋을 작게 숨긴 아침 이미지), N4/N4b/N4c, 판독2는 test/test1.mp4. 클립 시작점 V1 0.0·1.2, V3 0.3, V4 0.0·1.0, V5 0.2·1.2.",
+    "aeo_line·desc_first_line은 make_cctv.py가 읽지 않는다. 설명란은 desc_first_line -> 대가성 문구 2종 -> aeo_line 순서로 publisher가 넣는다.",
+    "효과음 계획(파일 없음, 키 미기재): 호루라기 삑(10.8), 끙차(0.0·3.2·4.3), 으앗(9.2), 퐁(9.4), 드르륵(1·3), 후룩·통통(4), 치익·삑삑삑·타닥(2·7·13 판독), 골골+푸스스(8), 퐁+메에(10), 쾅(11), 드르륵+뱅글(12), 파닥(22.3, BGM 무음 구간 내 효과음은 의도 — QA는 '소리 없음'으로 오판하지 말 것), 뿅(23.0, pop.wav).",
+    "자막 y: 판독 화면 중 1330(결과 문구 y1200과 비겹침), 그 외 1230. 컷 6 들킴·컷 9 다시보기 자막 없음(의도).",
+    "[editor 10-08] enhance·ai_label 객체형·worklog.evidence·frame_drop 객체형({frames,clock_jump})·--thumb 구현 완료. sfx 키 연결 완료(assets/sfx/make_sfx_ep09.py 합성, 끙차·으앗은 edge-tts 후 피치 업). 위 '구현 전에는 렌더 금지'는 해제.",
+    "[editor 10-09 preview v1] 파일명 EP09_V1.mp4 -> V1.mp4 로 정정. V3/V4/V5는 생성 대기라 still(P3_v2/P4_v2/P5_v2_reg)로 두고 각 컷의 _pending_video에 영상 복귀 값을 보관. 작전2는 durs·bounce, 아침은 tail_dur(N4 와이드 0.1초) 사용.",
+    "[editor 10-09] V3/V4/V5 영상 반영: 작전3 V3 0.3 src_dur3.2 x1.45, 들킴 V4 0.2, 반전_a V4 1.2 프리즈(src_dur 0.04), 반전_b V5 0.4, 다시보기 V5 1.6 x0.5. make_cctv: src_dur·particles.from·REPLAY/rewind는 speed<1만.",
+    "[editor 10-09 preview v3] 자막 밤 와이드 y380(벽·등받이), 작업일지 1.8(뒤 컷 +0.3, 정적2 22.5–23.3), PPL 배경 V1_f030.png, 판독2 sfx_auto:false, bgm_vol .5, limiter .85"
+  ],
+  "segments": [
+    {
+      "name": "훅",
+      "type": "video",
+      "file": "V1.mp4",
+      "start": 0.3,
+      "dur": 1.2,
+      "hits": [
+        0.03
+      ],
+      "alerts": [
+        {
+          "at": 0.0,
+          "until": 0.55,
+          "box": [
+            0.1,
+            0.49,
+            0.62,
+            0.73
+          ]
+        },
+        {
+          "at": 0.55,
+          "box": [
+            0.38,
+            0.5,
+            0.92,
+            0.8
+          ],
+          "silent": true
+        }
+      ],
+      "captions": [
+        {
+          "text": "아무도 없는데?",
+          "at": 0.0,
+          "y": 380,
+          "font": "radio",
+          "radio": true
+        }
+      ],
+      "preview_at": 0.4,
+      "sfx": [
+        {
+          "file": "gungcha.wav",
+          "at": 0.03,
+          "vol": 0.9
+        },
+        {
+          "file": "thud.wav",
+          "at": 0.03,
+          "vol": 0.9
+        },
+        {
+          "file": "roller.wav",
+          "at": 0.25,
+          "vol": 0.7
+        },
+        {
+          "file": "thud.wav",
+          "at": 0.62,
+          "vol": 0.6
+        }
+      ]
+    },
+    {
+      "name": "판독1",
+      "type": "enhance",
+      "dur": 2.0,
+      "panel": [
+        40,
+        520,
+        1000,
+        610
+      ],
+      "ui": {
+        "top_l": "ENHANCE x8",
+        "top_r": "FRAME 041273",
+        "result": "OBJECT ×3 · 안전모 1, 두건 1, 방울 1",
+        "progress": true
+      },
+      "bg": "prev_last_frame",
+      "caption_y": 1330,
+      "frames": [
+        "E1a.png",
+        "E1b.png"
+      ],
+      "frame_swap": 0.33,
+      "crop": [
+        255,
+        510,
+        385,
+        235
+      ],
+      "stages": [
+        [
+          0.0,
+          30
+        ],
+        [
+          0.4,
+          20
+        ],
+        [
+          0.8,
+          13
+        ]
+      ],
+      "captions": [
+        {
+          "text": "이거… 사람 맞음?",
+          "at": 0.4,
+          "y": 1330,
+          "font": "radio",
+          "radio": true
+        }
+      ],
+      "preview_at": 1.6
+    },
+    {
+      "name": "작전1",
+      "type": "video",
+      "file": "V1.mp4",
+      "start": 0.9,
+      "dur": 2.2,
+      "captions": [
+        {
+          "text": "털 도로 착공 확인",
+          "at": 0.0,
+          "y": 380,
+          "font": "radio",
+          "radio": true,
+          "badge": 1
+        }
+      ],
+      "preview_at": 1.0,
+      "sfx": [
+        {
+          "file": "gungcha.wav",
+          "at": 0.0,
+          "vol": 0.8
+        },
+        {
+          "file": "roller.wav",
+          "at": 0.05,
+          "vol": 0.7
+        },
+        {
+          "file": "gungcha.wav",
+          "at": 1.5,
+          "vol": 0.8
+        },
+        {
+          "file": "thud.wav",
+          "at": 1.5,
+          "vol": 0.5
+        }
+      ],
+      "zoom": {
+        "at": 0.2,
+        "dur": 1.1,
+        "from": 1.0,
+        "to": 1.04,
+        "cx": 0.5,
+        "cy": 0.6
+      }
+    },
+    {
+      "name": "작전2",
+      "type": "image",
+      "files": [
+        "P2a_v2.png",
+        "P2c_v2_reg.png",
+        "P2d_v2_reg.png"
+      ],
+      "file": "P2a_v2.png",
+      "dur": 2.2,
+      "captions": [
+        {
+          "text": "미확인 솜, 털 먹는 중",
+          "at": 0.0,
+          "y": 380,
+          "font": "radio",
+          "radio": true,
+          "badge": 2
+        }
+      ],
+      "preview_at": 1.0,
+      "sfx": [
+        {
+          "file": "hair.wav",
+          "at": 0.2,
+          "vol": 0.8
+        },
+        {
+          "file": "bounce.wav",
+          "at": 0.6,
+          "vol": 0.7
+        },
+        {
+          "file": "hair.wav",
+          "at": 0.8,
+          "vol": 0.8
+        },
+        {
+          "file": "bounce.wav",
+          "at": 1.2,
+          "vol": 0.7
+        }
+      ],
+      "durs": [
+        0.6,
+        0.6,
+        1.0
+      ],
+      "bounce": {
+        "at": [
+          0.6,
+          1.2
+        ],
+        "amp": 6
+      },
+      "frame_drop": {
+        "frames": 2,
+        "clock_jump": 1
+      },
+      "swap_rot": 0
+    },
+    {
+      "name": "작전3",
+      "type": "video",
+      "file": "V3.mp4",
+      "dur": 2.2,
+      "hits": [
+        1.98
+      ],
+      "captions": [
+        {
+          "text": "실밥이 혼자 그네 탐",
+          "at": 0.0,
+          "y": 380,
+          "font": "radio",
+          "radio": true,
+          "badge": 3
+        }
+      ],
+      "preview_at": 1.5,
+      "sfx": [
+        {
+          "file": "creak.wav",
+          "at": 0.7,
+          "vol": 0.7
+        },
+        {
+          "file": "euat.wav",
+          "at": 1.82,
+          "vol": 0.9
+        },
+        {
+          "file": "pop.wav",
+          "at": 1.98,
+          "vol": 0.8
+        }
+      ],
+      "start": 0.3,
+      "src_dur": 3.2,
+      "speed": 1.45
+    },
+    {
+      "name": "들킴",
+      "type": "video",
+      "file": "V4.mp4",
+      "dur": 1.0,
+      "hits": [
+        0.0
+      ],
+      "alerts": [
+        {
+          "at": 0.0,
+          "box": [
+            0.22,
+            0.33,
+            0.58,
+            0.53
+          ]
+        }
+      ],
+      "stamps": [
+        {
+          "text": "들킴",
+          "at": 0.3,
+          "x": 760,
+          "y": 820,
+          "font": "osd",
+          "plate": true,
+          "size": 84
+        }
+      ],
+      "preview_at": 0.5,
+      "start": 0.2
+    },
+    {
+      "name": "판독2",
+      "type": "enhance",
+      "dur": 1.0,
+      "panel": [
+        40,
+        520,
+        1000,
+        610
+      ],
+      "ui": {
+        "top_l": "ENHANCE x8",
+        "top_r": "FRAME 041362",
+        "result": "FRAME 정지 · 움직임 0",
+        "progress": true,
+        "pause_icon": true
+      },
+      "bg": "prev_last_frame",
+      "caption_y": 1330,
+      "src": "test/test1.mp4",
+      "freeze": 2.1,
+      "crop": [
+        70,
+        370,
+        375,
+        228
+      ],
+      "stages": [
+        [
+          0.0,
+          20
+        ],
+        [
+          0.3,
+          13
+        ]
+      ],
+      "captions": [
+        {
+          "text": "얼음!!",
+          "at": 0.0,
+          "y": 1330,
+          "font": "radio",
+          "radio": true
+        }
+      ],
+      "preview_at": 0.6,
+      "sfx": [
+        {
+          "file": "whistle.wav",
+          "at": 0.0,
+          "vol": 0.9
+        }
+      ],
+      "sfx_auto": false
+    },
+    {
+      "name": "반전_a",
+      "type": "video",
+      "file": "V4.mp4",
+      "dur": 0.4,
+      "captions": [
+        {
+          "text": "고양이가 다시 털었다",
+          "at": 0.0,
+          "y": 380,
+          "font": "radio",
+          "radio": true
+        }
+      ],
+      "preview_at": 0.2,
+      "sfx": [
+        {
+          "file": "purr.wav",
+          "at": 0.0,
+          "vol": 0.6
+        }
+      ],
+      "start": 1.2,
+      "src_dur": 0.04,
+      "zoom": {
+        "at": 0.0,
+        "dur": 0.4,
+        "from": 1.0,
+        "to": 1.03,
+        "cx": 0.35,
+        "cy": 0.45
+      },
+      "frame_drop": {
+        "frames": 0,
+        "clock_jump": 1
+      }
+    },
+    {
+      "name": "반전_b",
+      "type": "video",
+      "file": "V5.mp4",
+      "dur": 2.2,
+      "frame_drop": {
+        "frames": 2,
+        "clock_jump": 1
+      },
+      "captions": [
+        {
+          "text": "고양이가 다시 털었다",
+          "at": 0.0,
+          "y": 380,
+          "font": "radio",
+          "radio": true,
+          "cont": true
+        }
+      ],
+      "preview_at": 1.2,
+      "sfx": [
+        {
+          "file": "fusu.wav",
+          "at": 0.8,
+          "vol": 0.8
+        }
+      ],
+      "start": 0.4,
+      "particles": {
+        "from": 0.8,
+        "until": 2.2,
+        "n": 28,
+        "shake": 0,
+        "seed": 21
+      }
+    },
+    {
+      "name": "다시보기",
+      "type": "video",
+      "file": "V5.mp4",
+      "dur": 1.2,
+      "speed": 0.5,
+      "alerts": [
+        {
+          "at": 0.0,
+          "box": [
+            0.62,
+            0.33,
+            0.98,
+            0.56
+          ]
+        }
+      ],
+      "preview_at": 0.6,
+      "start": 1.6,
+      "particles": {
+        "until": 1.2,
+        "n": 28,
+        "shake": 0,
+        "seed": 33
+      },
+      "sfx": [
+        {
+          "file": "fusu.wav",
+          "at": 0.1,
+          "vol": 0.7
+        }
+      ]
+    },
+    {
+      "name": "마스코트",
+      "type": "image",
+      "file": "M6.png",
+      "dur": 2.0,
+      "zoom": {
+        "at": 0.0,
+        "dur": 2.0,
+        "from": 1.0,
+        "to": 1.3,
+        "cx": 0.5,
+        "cy": 0.6
+      },
+      "tags": [
+        {
+          "text": "뭉치 · 공사 가축(추정)",
+          "at": 0.3,
+          "x": 640,
+          "y": 820
+        }
+      ],
+      "captions": [
+        {
+          "text": "털 먹고 두 배 됐음",
+          "at": 0.3,
+          "y": 1230,
+          "font": "radio",
+          "radio": true
+        }
+      ],
+      "preview_at": 1.0,
+      "sfx": [
+        {
+          "file": "pop.wav",
+          "at": 0.3,
+          "vol": 0.7
+        },
+        {
+          "file": "baa.wav",
+          "at": 0.35,
+          "vol": 0.7
+        }
+      ]
+    },
+    {
+      "name": "작업일지",
+      "type": "image",
+      "file": "M6.png",
+      "dur": 1.8,
+      "dim": 0.55,
+      "worklog": {
+        "title": "작업일지 #009",
+        "lines": [
+          "결과: 원상복구",
+          "사유: 고양이"
+        ],
+        "approval": false,
+        "evidence": {
+          "from": "판독1 마지막 단계",
+          "size": [
+            240,
+            150
+          ],
+          "tilt": 3,
+          "label": "판독#1",
+          "at": 0.0,
+          "label_size": 28,
+          "label_dy": 14
+        },
+        "body_y": 262
+      },
+      "stamps": [
+        {
+          "text": "반려",
+          "at": 0.7,
+          "x": 740,
+          "y": 900,
+          "font": "doc",
+          "shape": "circle",
+          "dia": 220
+        }
+      ],
+      "preview_at": 1.2
+    },
+    {
+      "name": "아침",
+      "type": "image",
+      "files": [
+        "N1_crew.png",
+        "N2_crew.png",
+        "N3_crew.png",
+        "N4_reg.png"
+      ],
+      "swap": 0.2,
+      "swap_rot": 2.0,
+      "file": "N1_crew.png",
+      "dur": 2.4,
+      "clock": "07:30:12",
+      "color": true,
+      "alerts": [
+        {
+          "at": 2.1,
+          "box": [
+            0.3,
+            0.45,
+            0.7,
+            0.72
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "text": "07:30 주인은 모른다",
+          "at": 0.0,
+          "y": 1230,
+          "font": "radio",
+          "radio": true
+        }
+      ],
+      "preview_at": 1.0,
+      "sfx": [
+        {
+          "file": "roller_spin.wav",
+          "at": 0.1,
+          "vol": 0.8
+        }
+      ],
+      "tail_dur": 0.1
+    },
+    {
+      "name": "판독3",
+      "type": "enhance",
+      "dur": 1.8,
+      "panel": [
+        40,
+        520,
+        1000,
+        610
+      ],
+      "ui": {
+        "top_l": "ENHANCE x12",
+        "top_r": "FRAME 162904",
+        "result": "OBJECT ×1 · 시선 감지",
+        "progress": true
+      },
+      "bg": "prev_last_frame",
+      "caption_y": 1300,
+      "frames": [
+        "N4_reg.png"
+      ],
+      "inserts": [
+        {
+          "file": "N4c_reg.png",
+          "at": 0.7,
+          "dur": 0.1
+        },
+        {
+          "file": "N4b_reg.png",
+          "at": 1.4,
+          "dur": 0.1
+        }
+      ],
+      "stages": [
+        [
+          0.0,
+          34
+        ],
+        [
+          0.3,
+          22
+        ],
+        [
+          0.6,
+          15
+        ]
+      ],
+      "clock": "07:30:15",
+      "color": true,
+      "captions": [
+        {
+          "text": "판독: 눈 마주침",
+          "at": 0.1,
+          "y": 1300,
+          "font": "radio",
+          "radio": true
+        }
+      ],
+      "sfx": [
+        {
+          "file": "flutter.wav",
+          "at": 0.8,
+          "vol": 0.7
+        },
+        {
+          "file": "pop.wav",
+          "at": 1.5,
+          "vol": 1.0
+        }
+      ],
+      "preview_at": 1.0,
+      "crop": [
+        544,
+        1235,
+        640,
+        390
+      ]
+    },
+    {
+      "name": "PPL",
+      "type": "image",
+      "file": "V1_f030.png",
+      "dur": 6.1,
+      "dim": 0.6,
+      "ppl": true,
+      "preview_at": 2.5
+    }
+  ],
+  "desc_first_line": "[AI 상황극] 이 영상은 AI로 만든 연출이며 실제 CCTV 영상이 아닙니다.",
+  "thumbnail": {
+    "src": "판독1 마지막 단계",
+    "circles": [
+      [
+        198,
+        710,
+        120
+      ],
+      [
+        458,
+        686,
+        125
+      ],
+      [
+        707,
+        899,
+        150
+      ]
+    ],
+    "ai_tag": "AI 상황극",
+    "text": [
+      "새벽 3시 판독 결과",
+      "사람 3명?"
+    ]
+  },
+  "upload_checks": [
+    "쿠팡 상품 하우징 색·실루엣 확인(레몬 옐로면 PD 보고)",
+    "업로드 당일 네이버·쿠팡 상품 페이지에서 가격·리뷰 수 재확인(PPL 줄 네이버 85·쿠팡 43, price_date와 다르면 수정)",
+    "파쿠파쿠 쇼핑커넥트 진행 상태",
+    "제목·설명·댓글·해시태그에 실제 목격 암시어(#실제상황 #소인목격 #진짜 #실화) 없음"
+  ],
+  "limiter": 0.79
+}

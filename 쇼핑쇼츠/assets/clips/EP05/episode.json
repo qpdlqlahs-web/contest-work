@@ -1,0 +1,284 @@
+{
+  "title": "새벽 3시 펫캠에 찍힌 우리 강아지의 비밀",
+  "titles": [
+    "새벽 3시 펫캠에 찍힌 우리 강아지의 비밀",
+    "펫캠 돌려봤다가 코기한테 배신당함",
+    "주인 몰래 새벽 작전 펼치는 코기 (펫캠)"
+  ],
+  "hashtags": [
+    "#펫캠",
+    "#코기",
+    "#강아지",
+    "#반려견",
+    "#새벽3시CCTV"
+  ],
+  "pinned_comment": "여러분 강아지도 새벽에 이러나요? 댓글로 제보 받아요 👇",
+  "cam": "PET CAM",
+  "date": "2026-10-04",
+  "clock": "03:15:08",
+  "price_date": "10/4",
+  "ppl_label": "PPL 타임",
+  "ppl_notes": [
+    "※ 강아지 비밀: 지켜 드림",
+    "※ 리뷰 수: 진짜"
+  ],
+  "ppl_cta": {
+    "youtube": "링크는 영상 설명란에",
+    "clip": "화면 스티커를 눌러 보세요"
+  },
+  "ppl_headline": "새벽 3시 목격자 채용 (택1)",
+  "bgm": "bgm_sneaky.wav",
+  "bgm_vol": 0.32,
+  "bgm_mute": [
+    [
+      15.0,
+      18.0
+    ]
+  ],
+  "product": {
+    "store": "네이버",
+    "name": "티피링크 Tapo C260 800만화소 펫캠",
+    "short": "티피링크 Tapo C260 펫캠",
+    "role": "새벽 3시 목격자 채용",
+    "price": 96300,
+    "reviews": 1405,
+    "rating": 4.9,
+    "aff_type": "쇼핑커넥트",
+    "link": "https://naver.me/5reIAnmB"
+  },
+  "product_alt": {
+    "store": "쿠팡",
+    "name": "타포 360도 회전형 FHD 스마트 Wi-Fi 홈 CCTV",
+    "short": "타포 360도 홈 CCTV",
+    "price": 37900,
+    "reviews": 3400,
+    "aff_type": "쿠팡파트너스",
+    "link": "https://link.coupang.com/a/hzbOeW2w7o"
+  },
+  "segments": [
+    {
+      "name": "오프닝",
+      "type": "video",
+      "file": "EP05_opening.mp4",
+      "start": 2.0,
+      "dur": 3.0,
+      "alerts": [
+        {
+          "at": 1.6,
+          "box": [
+            0.25,
+            0.45,
+            0.75,
+            0.75
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "text": "새벽 3시, 우리 집 펫캠",
+          "at": 0.0,
+          "y": 1230
+        }
+      ],
+      "preview_at": 2.2
+    },
+    {
+      "name": "작전1",
+      "type": "video",
+      "file": "EP05_drawer.mp4",
+      "start": 0.5,
+      "dur": 4.0,
+      "captions": [
+        {
+          "text": "작전 ①  간식 서랍 털기",
+          "at": 0.0,
+          "y": 1230
+        }
+      ],
+      "stamps": [
+        {
+          "text": "성공",
+          "at": 3.0,
+          "x": 540,
+          "y": 640
+        }
+      ],
+      "preview_at": 2.0
+    },
+    {
+      "name": "작전2",
+      "type": "video",
+      "file": "EP05_cushion.mp4",
+      "start": 0.8,
+      "dur": 4.0,
+      "captions": [
+        {
+          "text": "작전 ②  쿠션 성 건설",
+          "at": 0.0,
+          "y": 1230
+        }
+      ],
+      "stamps": [
+        {
+          "text": "성공",
+          "at": 3.0,
+          "x": 540,
+          "y": 640
+        }
+      ],
+      "preview_at": 2.5
+    },
+    {
+      "name": "작전3",
+      "type": "video",
+      "file": "EP05_slipper.mp4",
+      "start": 0.5,
+      "dur": 4.0,
+      "captions": [
+        {
+          "text": "작전 ③  주인 슬리퍼 납치",
+          "at": 0.0,
+          "y": 1230
+        }
+      ],
+      "stamps": [
+        {
+          "text": "성공",
+          "at": 3.0,
+          "x": 540,
+          "y": 640
+        }
+      ],
+      "preview_at": 2.5
+    },
+    {
+      "name": "들킴",
+      "type": "video",
+      "file": "EP05_caught.mp4",
+      "start": 0.0,
+      "dur": 4.0,
+      "zoom": {
+        "at": 0.6,
+        "dur": 0.25,
+        "to": 1.35,
+        "cx": 0.5,
+        "cy": 0.4
+      },
+      "captions": [
+        {
+          "text": "…눈 마주침",
+          "at": 1.0,
+          "y": 1230
+        }
+      ],
+      "stamps": [
+        {
+          "text": "목격",
+          "at": 2.2,
+          "x": 540,
+          "y": 520
+        }
+      ],
+      "audio_vol": 0.0,
+      "preview_at": 2.5
+    },
+    {
+      "name": "애교",
+      "type": "video",
+      "file": "EP05_aegyo.mp4",
+      "start": 0.0,
+      "dur": 3.0,
+      "captions": [
+        {
+          "text": "필살기: 애교 발동",
+          "at": 0.2,
+          "y": 1230
+        }
+      ],
+      "preview_at": 1.5
+    },
+    {
+      "name": "다시보기",
+      "type": "video",
+      "file": "EP05_aegyo.mp4",
+      "start": 0.6,
+      "dur": 2.4,
+      "speed": 0.5,
+      "zoom": {
+        "at": 0.0,
+        "dur": 0.6,
+        "to": 1.3,
+        "cx": 0.5,
+        "cy": 0.4
+      },
+      "audio_vol": 0.0,
+      "preview_at": 1.2
+    },
+    {
+      "name": "두루",
+      "type": "video",
+      "file": "EP05_toilet.mp4",
+      "start": 0.0,
+      "dur": 4.5,
+      "captions": [
+        {
+          "text": "작전 ④  두루 포획",
+          "at": 0.2,
+          "y": 1230
+        }
+      ],
+      "stamps": [
+        {
+          "text": "포획",
+          "at": 3.2,
+          "x": 540,
+          "y": 640
+        }
+      ],
+      "sfx": [
+        {
+          "file": "question.wav",
+          "at": 0.2,
+          "vol": 1.0
+        }
+      ],
+      "preview_at": 3.0
+    },
+    {
+      "name": "아침",
+      "type": "image",
+      "file": "morning.png",
+      "dur": 4.5,
+      "clock": "07:30:12",
+      "zoom": {
+        "at": 2.2,
+        "dur": 0.5,
+        "to": 1.5,
+        "cx": 0.4,
+        "cy": 0.55
+      },
+      "captions": [
+        {
+          "text": "아침 7시 30분, 주인 출근",
+          "at": 0.1,
+          "y": 1230
+        },
+        {
+          "text": "\"우리 코기 얌전히 잤네~\"",
+          "at": 1.4,
+          "y": 960
+        }
+      ],
+      "preview_at": 3.0
+    },
+    {
+      "name": "PPL",
+      "type": "image",
+      "file": "master.png",
+      "dur": 6.4,
+      "dim": 0.6,
+      "ppl": true,
+      "preview_at": 2.5
+    }
+  ]
+}

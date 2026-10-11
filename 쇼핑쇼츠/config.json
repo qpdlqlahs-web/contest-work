@@ -1,0 +1,82 @@
+{
+  "sheet": "shopping_shorts.xlsx",
+  "ffmpeg": "ffmpeg",
+  "fps": 30,
+
+  "durations": {
+    "hook": 2.5,
+    "product": 5.0,
+    "outro": 3.5
+  },
+  "zoom": 0.04,
+
+  "bgm": "assets/bgm/jingle.mp3",
+  "bgm_volume": 0.9,
+  "bgm_fade_out": 1.2,
+
+  "fonts": {
+    "heavy": [
+      "assets/fonts/Pretendard-ExtraBold.otf",
+      "C:/Windows/Fonts/malgunbd.ttf",
+      "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc"
+    ],
+    "bold": [
+      "assets/fonts/Pretendard-SemiBold.otf",
+      "C:/Windows/Fonts/malgunbd.ttf",
+      "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc"
+    ],
+    "osd": [
+      "assets/fonts/Galmuri11-Bold.ttf",
+      "assets/fonts/Pretendard-ExtraBold.otf"
+    ],
+    "radio": [
+      "assets/fonts/BlackHanSans-Regular.ttf",
+      "assets/fonts/Pretendard-ExtraBold.otf"
+    ],
+    "doc": [
+      "assets/fonts/NanumMyeongjo-ExtraBold.ttf",
+      "assets/fonts/Pretendard-ExtraBold.otf"
+    ],
+    "regular": [
+      "assets/fonts/Pretendard-Regular.otf",
+      "C:/Windows/Fonts/malgun.ttf",
+      "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc"
+    ]
+  },
+
+  "colors": {
+    "bg": "#F7F3EC",
+    "ink": "#1E1E1E",
+    "muted": "#5E5A55",
+    "accent": "#D9472B",
+    "dark_bg": "#1F2A44",
+    "dark_ink": "#FFFFFF",
+    "dark_muted": "#AEB6C8",
+    "highlight": "#FFD45C",
+    "chip_ink": "#1F2A44",
+    "dark_panel": "#2A3756",
+    "line": "#E8E2D8",
+    "star": "#F2A900"
+  },
+
+  "cta": {
+    "youtube": "상품 {n}개 모두\n프로필 링크 {link_no}번에 있어요",
+    "clip": "화면의 상품 스티커를 누르면\n바로 볼 수 있어요"
+  },
+
+  "ai_label": "AI 연출",
+  "ai_notice_ppl": "영상 속 장면은 AI 연출이며 실제 제품의 성능과 다릅니다. 기능·사용법은 상품 페이지 확인",
+  "ai_notice_size": 33,
+  "disclosure_size": 34,
+  "ai_label_size": 33,
+  "osd_size": 40,
+
+  "disclosure_on_video": "광고 · 제휴 링크로 구매하면 수수료를 받아요",
+
+  "disclosure_text": {
+    "쿠팡파트너스": "이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.",
+    "쇼핑커넥트": "이 포스팅은 네이버 쇼핑 커넥트 활동의 일환으로, 판매 발생 시 수수료를 제공받습니다."
+  },
+
+  "default_hashtags": ["#선물추천", "#선물고민"]
+}

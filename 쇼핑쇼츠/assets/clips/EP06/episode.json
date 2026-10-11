@@ -1,0 +1,288 @@
+{
+  "title": "새벽 3시 냉동실 CCTV에 찍힌 냉동밥들의 작전",
+  "titles": [
+    "새벽 3시 냉동실 CCTV에 찍힌 냉동밥들의 작전",
+    "냉동실에 CCTV 달았다가 냉동밥한테 반함",
+    "아이스크림 몰래 막는 냉동밥 경비대 (냉동실 CCTV)"
+  ],
+  "hashtags": [
+    "#밀폐용기",
+    "#냉동밥용기",
+    "#냉동실정리",
+    "#자취템",
+    "#새벽3시CCTV"
+  ],
+  "pinned_comment": "다음엔 어디에 CCTV를 달아 볼까요? 댓글로 장소 제보 받아요 👇",
+  "cam": "FREEZER CAM",
+  "date": "2026-10-06",
+  "clock": "03:14:51",
+  "price_date": "10/4",
+  "ppl_label": "PPL 타임",
+  "ppl_notes": [
+    "※ 밀폐: 진짜 / 성에·냄새 차단",
+    "※ 리뷰 수: 진짜"
+  ],
+  "ppl_cta": {
+    "youtube": "링크는 영상 설명란에",
+    "clip": "화면 스티커를 눌러 보세요"
+  },
+  "ppl_headline": "냉동실 밀폐 경비대 채용 (택1)",
+  "bgm": "bgm_sneaky.wav",
+  "bgm_vol": 0.32,
+  "bgm_mute": [
+    [
+      15.0,
+      18.6
+    ]
+  ],
+  "product": {
+    "store": "네이버",
+    "name": "디아르 국내산 플래티넘 실리콘 냉동밥 보관 용기 200ml",
+    "short": "디아르 실리콘 냉동밥 용기",
+    "role": "냉동실 경비대 채용",
+    "price": 6500,
+    "reviews": 2907,
+    "rating": 4.87,
+    "aff_type": "쇼핑커넥트",
+    "link": "https://naver.me/xXnOqOoX"
+  },
+  "product_alt": {
+    "store": "쿠팡",
+    "name": "스텐 밀폐용기 반찬통 세트 진공 밀폐용기",
+    "short": "스텐 진공 밀폐용기 세트",
+    "price": 17900,
+    "reviews": 5116,
+    "aff_type": "쿠팡파트너스",
+    "link": "https://link.coupang.com/a/hzjAYteb2y"
+  },
+  "segments": [
+    {
+      "name": "오프닝",
+      "type": "video",
+      "file": "EP06_opening.mp4",
+      "start": 1.0,
+      "dur": 3.0,
+      "alerts": [
+        {
+          "at": 1.2,
+          "box": [
+            0.1,
+            0.45,
+            0.75,
+            0.66
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "text": "새벽 3시, 우리 집 냉동실 CCTV",
+          "at": 0.0,
+          "y": 1230
+        }
+      ],
+      "preview_at": 2.0
+    },
+    {
+      "name": "작전1",
+      "type": "video",
+      "file": "EP06_rollcall.mp4",
+      "start": 0.8,
+      "dur": 4.0,
+      "captions": [
+        {
+          "text": "작전 ①  인원 점검",
+          "at": 0.0,
+          "y": 1230
+        }
+      ],
+      "stamps": [
+        {
+          "text": "이상 무",
+          "at": 3.0,
+          "x": 540,
+          "y": 640
+        }
+      ],
+      "preview_at": 2.0
+    },
+    {
+      "name": "작전2",
+      "type": "video",
+      "file": "EP06_stack.mp4",
+      "start": 0.5,
+      "dur": 4.0,
+      "captions": [
+        {
+          "text": "작전 ②  칼각 쌓기 (공간 절약)",
+          "at": 0.0,
+          "y": 1230
+        }
+      ],
+      "stamps": [
+        {
+          "text": "완료",
+          "at": 3.0,
+          "x": 540,
+          "y": 640
+        }
+      ],
+      "preview_at": 2.5
+    },
+    {
+      "name": "작전3",
+      "type": "video",
+      "file": "EP06_block.mp4",
+      "start": 0.5,
+      "dur": 4.0,
+      "captions": [
+        {
+          "text": "작전 ③  야식 경쟁자 은폐",
+          "at": 0.0,
+          "y": 1230
+        }
+      ],
+      "stamps": [
+        {
+          "text": "은폐",
+          "at": 3.0,
+          "x": 540,
+          "y": 640
+        }
+      ],
+      "preview_at": 2.5
+    },
+    {
+      "name": "들킴",
+      "type": "video",
+      "file": "EP06_caught.mp4",
+      "start": 1.3,
+      "dur": 3.5,
+      "zoom": {
+        "at": 1.0,
+        "dur": 0.25,
+        "to": 1.3,
+        "cx": 0.5,
+        "cy": 0.55
+      },
+      "captions": [
+        {
+          "text": "…문이 열렸다",
+          "at": 1.0,
+          "y": 1230
+        }
+      ],
+      "stamps": [
+        {
+          "text": "얼음",
+          "at": 2.0,
+          "x": 540,
+          "y": 520
+        }
+      ],
+      "preview_at": 2.0
+    },
+    {
+      "name": "선택",
+      "type": "video",
+      "file": "EP06_hand.mp4",
+      "start": 0.6,
+      "dur": 4.2,
+      "captions": [
+        {
+          "text": "새벽 3시의 선택은…",
+          "at": 0.0,
+          "y": 1230
+        }
+      ],
+      "preview_at": 3.0
+    },
+    {
+      "name": "다시보기",
+      "type": "video",
+      "file": "EP06_hand.mp4",
+      "start": 3.0,
+      "dur": 2.4,
+      "speed": 0.5,
+      "zoom": {
+        "at": 0.0,
+        "dur": 0.6,
+        "to": 1.3,
+        "cx": 0.7,
+        "cy": 0.55
+      },
+      "captions": [
+        {
+          "text": "아이스크림 표정 주목",
+          "at": 0.2,
+          "y": 1230
+        }
+      ],
+      "preview_at": 1.5
+    },
+    {
+      "name": "두루",
+      "type": "video",
+      "file": "EP06_duru.mp4",
+      "start": 0.0,
+      "dur": 4.0,
+      "captions": [
+        {
+          "text": "…근데 너는 왜 꽁꽁 얼었어?",
+          "at": 0.2,
+          "y": 1230
+        },
+        {
+          "text": "(밀폐가 안 돼서)",
+          "at": 1.8,
+          "y": 960
+        }
+      ],
+      "stamps": [
+        {
+          "text": "성에 주의",
+          "at": 2.8,
+          "x": 540,
+          "y": 640
+        }
+      ],
+      "sfx": [
+        {
+          "file": "question.wav",
+          "at": 0.2,
+          "vol": 1.0
+        }
+      ],
+      "preview_at": 2.5
+    },
+    {
+      "name": "전자레인지",
+      "type": "video",
+      "file": "EP06_microwave.mp4",
+      "start": 0.5,
+      "dur": 4.3,
+      "clock": "03:21:40",
+      "captions": [
+        {
+          "text": "3분 뒤, 전자레인지",
+          "at": 0.1,
+          "y": 1230
+        },
+        {
+          "text": "\"꺼내자마자 바로 데움 OK\"",
+          "at": 1.6,
+          "y": 960
+        }
+      ],
+      "preview_at": 3.0
+    },
+    {
+      "name": "PPL",
+      "type": "image",
+      "file": "master.png",
+      "dur": 6.4,
+      "dim": 0.6,
+      "ppl": true,
+      "preview_at": 2.5
+    }
+  ]
+}

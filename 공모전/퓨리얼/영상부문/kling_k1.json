@@ -1,0 +1,39 @@
+[
+  {
+    "created_at": "2026-10-08T15:01:42.685432Z",
+    "display_name": "Kling v3.0",
+    "id": "1963592d-ec3b-4ba0-99bd-0fe9ddb67f37",
+    "job_type": "kling3_0",
+    "min_result_url": null,
+    "params": {
+      "aspect_ratio": "9:16",
+      "cfg_scale": 0.5,
+      "duration": 5,
+      "enhance_prompt": false,
+      "height": 1280,
+      "kling_element_ids": [],
+      "kling_elements": [],
+      "medias": [
+        {
+          "data": {
+            "id": "ca9ea1e3-120f-496b-b21e-49d2012d219b",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3CbtW1SER8KG1q2elNWQPVTsX14/ca9ea1e3-120f-496b-b21e-49d2012d219b.png"
+          },
+          "role": "start_image"
+        }
+      ],
+      "mode": "std",
+      "multi_prompt": [],
+      "multi_shot_mode": "custom",
+      "multi_shots": false,
+      "prompt": "Locked-off static shot, no camera movement, no zoom, no pan. A thin, clear, steady stream of water keeps pouring from the nozzle into the glass on the drip tray; the water level in the glass rises slowly and steadily; gentle ripples on the surface. The slanted sunbeam stays fixed while faint dust motes drift slowly through it. The appliance stays completely still and unchanged: no lever movement, no shape change, no morphing. No people, no hands, no extra water streams, no splashing out of the glass, no new objects, no flicker, no text changes.",
+      "reference_elements": [],
+      "sound": "off",
+      "width": 720
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3CbtW1SER8KG1q2elNWQPVTsX14/hf_20261008_150142_1963592d-ec3b-4ba0-99bd-0fe9ddb67f37.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_3CbtW1SER8KG1q2elNWQPVTsX14/hf_20261008_150142_1963592d-ec3b-4ba0-99bd-0fe9ddb67f37_thumbnail.webp"
+  }
+]

@@ -1,0 +1,284 @@
+{
+  "pinned_comment": "다음엔 어디에 CCTV를 달아 볼까요? 댓글로 장소 제보 받아요 👇",
+  "price_date": "10/7",
+  "ppl_label": "PPL 타임",
+  "ppl_cta": {
+    "youtube": "링크는 영상 설명란에",
+    "clip": "화면 스티커를 눌러 보세요"
+  },
+  "bgm": "bgm_sneaky.wav",
+  "bgm_vol": 0.32,
+  "title": "새벽 3시 신발장 CCTV에 찍힌 신발들의 작전",
+  "titles": [
+    "새벽 3시 신발장 CCTV에 찍힌 신발들의 작전",
+    "신발장에 CCTV 달았다가 운동화한테 반함",
+    "냄새나는 운동화 몰래 구출하는 신발들 (신발장 CCTV)"
+  ],
+  "hashtags": [
+    "#신발탈취제",
+    "#신발냄새",
+    "#신발장정리",
+    "#자취템",
+    "#새벽3시CCTV"
+  ],
+  "cam": "SHOE CAM",
+  "date": "2026-10-08",
+  "clock": "03:14:22",
+  "ppl_notes": [
+    "※ 운동화 자존감: 회복",
+    "※ 리뷰 수: 진짜"
+  ],
+  "ppl_headline": "신발장 냄새 특공대 채용 (택1)",
+  "bgm_mute": [
+    [
+      13.0,
+      17.5
+    ]
+  ],
+  "product": {
+    "store": "네이버",
+    "name": "1+1 살림백서 뿌리는 신발탈취제 200ml",
+    "short": "살림백서 신발탈취제 1+1",
+    "role": "신발장 냄새 특공대 채용",
+    "price": 13900,
+    "reviews": 5360,
+    "rating": 4.76,
+    "aff_type": "쇼핑커넥트",
+    "link": "https://naver.me/FtobDe21"
+  },
+  "product_alt": {
+    "store": "쿠팡",
+    "name": "홈스타 신발을 부탁해 탈취제 500ml 2개",
+    "short": "홈스타 신발을 부탁해 2개",
+    "price": 9800,
+    "reviews": 15209,
+    "aff_type": "쿠팡파트너스",
+    "link": "https://link.coupang.com/a/hD6kpi6fNQ"
+  },
+  "segments": [
+    {
+      "name": "오프닝",
+      "type": "video",
+      "file": "EP07_opening.mp4",
+      "start": 0.0,
+      "dur": 3.0,
+      "alerts": [
+        {
+          "at": 1.0,
+          "box": [
+            0.2,
+            0.45,
+            0.65,
+            0.65
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "text": "새벽 3시, 우리 집 신발장 CCTV",
+          "at": 0.0,
+          "y": 1230
+        }
+      ],
+      "preview_at": 2.0
+    },
+    {
+      "name": "작전1",
+      "type": "video",
+      "file": "EP07_opening.mp4",
+      "start": 3.0,
+      "dur": 2.0,
+      "captions": [
+        {
+          "text": "작전 ①  냄새범 격리",
+          "at": 0.0,
+          "y": 1230
+        }
+      ],
+      "stamps": [
+        {
+          "text": "격리",
+          "at": 1.0,
+          "x": 540,
+          "y": 640
+        }
+      ],
+      "preview_at": 1.2
+    },
+    {
+      "name": "작전2",
+      "type": "video",
+      "file": "EP07_spray.mp4",
+      "start": 0.3,
+      "dur": 3.5,
+      "captions": [
+        {
+          "text": "작전 ②  비밀병기 출동",
+          "at": 0.0,
+          "y": 1230
+        }
+      ],
+      "stamps": [
+        {
+          "text": "칙칙",
+          "at": 2.0,
+          "x": 540,
+          "y": 640
+        }
+      ],
+      "preview_at": 2.0
+    },
+    {
+      "name": "작전3",
+      "type": "video",
+      "file": "EP07_spray.mp4",
+      "start": 2.6,
+      "dur": 2.4,
+      "speed": 0.6,
+      "zoom": {
+        "at": 0.0,
+        "dur": 0.6,
+        "to": 1.3,
+        "cx": 0.45,
+        "cy": 0.5
+      },
+      "captions": [
+        {
+          "text": "작전 ③  증거 인멸 (냄새)",
+          "at": 0.0,
+          "y": 1230
+        }
+      ],
+      "stamps": [
+        {
+          "text": "냄새 0",
+          "at": 1.5,
+          "x": 540,
+          "y": 640
+        }
+      ],
+      "preview_at": 1.5
+    },
+    {
+      "name": "들킴",
+      "type": "video",
+      "file": "EP07_caught.mp4",
+      "start": 1.0,
+      "dur": 4.0,
+      "captions": [
+        {
+          "text": "…문이 열렸다",
+          "at": 2.4,
+          "y": 1230
+        }
+      ],
+      "stamps": [
+        {
+          "text": "얼음",
+          "at": 3.0,
+          "x": 540,
+          "y": 520
+        }
+      ],
+      "preview_at": 3.5
+    },
+    {
+      "name": "다시보기",
+      "type": "video",
+      "file": "EP07_caught.mp4",
+      "start": 3.6,
+      "dur": 2.8,
+      "speed": 0.5,
+      "zoom": {
+        "at": 0.0,
+        "dur": 0.6,
+        "to": 1.35,
+        "cx": 0.45,
+        "cy": 0.5
+      },
+      "captions": [
+        {
+          "text": "다시보기: 0.1초 만에 얼음",
+          "at": 0.2,
+          "y": 1230
+        }
+      ],
+      "preview_at": 1.5
+    },
+    {
+      "name": "두루",
+      "type": "image",
+      "file": "duru.png",
+      "dur": 4.5,
+      "zoom": {
+        "at": 0.3,
+        "dur": 0.4,
+        "to": 1.35,
+        "cx": 0.35,
+        "cy": 0.35
+      },
+      "hits": [
+        2.6
+      ],
+      "captions": [
+        {
+          "text": "…근데 너는 왜 장화 속에?",
+          "at": 0.2,
+          "y": 1230
+        }
+      ],
+      "stamps": [
+        {
+          "text": "은신 실패",
+          "at": 2.6,
+          "x": 540,
+          "y": 640
+        }
+      ],
+      "sfx": [
+        {
+          "file": "question.wav",
+          "at": 0.2,
+          "vol": 1.0
+        }
+      ],
+      "preview_at": 3.0
+    },
+    {
+      "name": "아침",
+      "type": "image",
+      "file": "morning.png",
+      "dur": 5.5,
+      "clock": "07:30:12",
+      "zoom": {
+        "at": 2.2,
+        "dur": 0.5,
+        "to": 1.4,
+        "cx": 0.45,
+        "cy": 0.7
+      },
+      "captions": [
+        {
+          "text": "아침 7시 30분, 현관",
+          "at": 0.1,
+          "y": 1230
+        },
+        {
+          "text": "\"오늘 냄새 0, 자존감 100\"",
+          "at": 1.4,
+          "y": 960
+        }
+      ],
+      "preview_at": 3.0
+    },
+    {
+      "name": "PPL",
+      "type": "image",
+      "file": "master.png",
+      "dur": 6.4,
+      "dim": 0.6,
+      "ppl": true,
+      "preview_at": 2.5
+    }
+  ]
+}

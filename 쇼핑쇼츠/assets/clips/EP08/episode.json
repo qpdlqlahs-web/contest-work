@@ -1,0 +1,279 @@
+{
+  "pinned_comment": "다음엔 어디에 CCTV를 달아 볼까요? 댓글로 장소 제보 받아요 👇",
+  "price_date": "10/7",
+  "ppl_label": "PPL 타임",
+  "ppl_cta": {
+    "youtube": "링크는 영상 설명란에",
+    "clip": "화면 스티커를 눌러 보세요"
+  },
+  "bgm": "bgm_sneaky.wav",
+  "bgm_vol": 0.32,
+  "title": "새벽 3시 세탁기 CCTV에 찍힌 양말들의 작전",
+  "titles": [
+    "새벽 3시 세탁기 CCTV에 찍힌 양말들의 작전",
+    "세탁기 안에 CCTV 달았다가 양말한테 반함",
+    "곰팡이 소탕하는 양말 특공대 (세탁기 CCTV)"
+  ],
+  "hashtags": [
+    "#세탁조클리너",
+    "#세탁기청소",
+    "#세탁기곰팡이",
+    "#자취템",
+    "#새벽3시CCTV"
+  ],
+  "cam": "WASHER CAM",
+  "date": "2026-10-09",
+  "clock": "03:15:40",
+  "ppl_notes": [
+    "※ 곰팡이: 퇴거 완료",
+    "※ 리뷰 수: 진짜"
+  ],
+  "ppl_headline": "세탁기 곰팡이 소탕반 채용 (택1)",
+  "bgm_mute": [
+    [
+      15.9,
+      17.9
+    ]
+  ],
+  "product": {
+    "store": "네이버",
+    "name": "터블 세탁조클리너 세탁기 곰팡이 먼지 악취 냄새 제거 100g 4개입",
+    "short": "터블 세탁조클리너 4개입",
+    "role": "세탁기 곰팡이 소탕반 채용",
+    "price": 11900,
+    "reviews": 1150,
+    "rating": 4.85,
+    "aff_type": "쇼핑커넥트",
+    "link": "https://naver.me/5kPi1Mvu"
+  },
+  "product_alt": {
+    "store": "쿠팡",
+    "name": "이브앤로엘 1+1 초강력 캡슐 세탁조 클리너",
+    "short": "이브앤로엘 캡슐 세탁조 클리너",
+    "price": 26640,
+    "reviews": 8324,
+    "aff_type": "쿠팡파트너스",
+    "link": "https://link.coupang.com/a/hD6lkPqt2q"
+  },
+  "segments": [
+    {
+      "name": "오프닝",
+      "type": "video",
+      "file": "EP08_opening.mp4",
+      "start": 0.5,
+      "dur": 4.5,
+      "alerts": [
+        {
+          "at": 1.2,
+          "box": [
+            0.15,
+            0.2,
+            0.85,
+            0.7
+          ]
+        }
+      ],
+      "captions": [
+        {
+          "text": "새벽 3시, 우리 집 세탁기 CCTV",
+          "at": 0.0,
+          "y": 1230
+        }
+      ],
+      "preview_at": 2.5
+    },
+    {
+      "name": "작전1",
+      "type": "video",
+      "file": "EP08_attack.mp4",
+      "start": 0.5,
+      "dur": 4.5,
+      "captions": [
+        {
+          "text": "작전 ①  양말 특공대 돌격",
+          "at": 0.0,
+          "y": 1230
+        }
+      ],
+      "stamps": [
+        {
+          "text": "실패",
+          "at": 3.6,
+          "x": 540,
+          "y": 640
+        }
+      ],
+      "preview_at": 2.5
+    },
+    {
+      "name": "다시보기1",
+      "type": "video",
+      "file": "EP08_attack.mp4",
+      "start": 2.6,
+      "dur": 2.4,
+      "speed": 0.5,
+      "zoom": {
+        "at": 0.0,
+        "dur": 0.6,
+        "to": 1.3,
+        "cx": 0.5,
+        "cy": 0.6
+      },
+      "captions": [
+        {
+          "text": "다시보기: 튕겨 나가는 양말",
+          "at": 0.2,
+          "y": 1230
+        }
+      ],
+      "preview_at": 1.5
+    },
+    {
+      "name": "작전2",
+      "type": "video",
+      "file": "EP08_powder.mp4",
+      "start": 0.3,
+      "dur": 4.5,
+      "captions": [
+        {
+          "text": "작전 ②  비밀병기 투하",
+          "at": 0.0,
+          "y": 1230
+        }
+      ],
+      "stamps": [
+        {
+          "text": "투하",
+          "at": 2.6,
+          "x": 540,
+          "y": 640
+        }
+      ],
+      "preview_at": 2.5
+    },
+    {
+      "name": "전원",
+      "type": "video",
+      "file": "EP08_spin.mp4",
+      "start": 0.3,
+      "dur": 4.5,
+      "hits": [
+        1.5
+      ],
+      "captions": [
+        {
+          "text": "…누가 전원을 눌렀다",
+          "at": 0.2,
+          "y": 1230
+        }
+      ],
+      "stamps": [
+        {
+          "text": "작전 ③ 강제 세척",
+          "at": 2.4,
+          "x": 540,
+          "y": 520
+        }
+      ],
+      "preview_at": 2.5
+    },
+    {
+      "name": "다시보기2",
+      "type": "video",
+      "file": "EP08_spin.mp4",
+      "start": 2.0,
+      "dur": 2.4,
+      "speed": 0.5,
+      "zoom": {
+        "at": 0.0,
+        "dur": 0.6,
+        "to": 1.3,
+        "cx": 0.5,
+        "cy": 0.45
+      },
+      "captions": [
+        {
+          "text": "곰팡이 퇴장 다시보기",
+          "at": 0.2,
+          "y": 1230
+        }
+      ],
+      "preview_at": 1.5
+    },
+    {
+      "name": "두루",
+      "type": "image",
+      "file": "duru.png",
+      "dur": 4.5,
+      "captions": [
+        {
+          "text": "…근데 너는 왜 세제통에?",
+          "at": 0.2,
+          "y": 1230
+        }
+      ],
+      "stamps": [
+        {
+          "text": "거품 목욕",
+          "at": 3.0,
+          "x": 540,
+          "y": 640
+        }
+      ],
+      "sfx": [
+        {
+          "file": "question.wav",
+          "at": 0.2,
+          "vol": 1.0
+        }
+      ],
+      "preview_at": 2.5,
+      "zoom": {
+        "at": 0.3,
+        "dur": 0.4,
+        "to": 1.35,
+        "cx": 0.5,
+        "cy": 0.4
+      },
+      "hits": [
+        3.0
+      ]
+    },
+    {
+      "name": "아침",
+      "type": "image",
+      "file": "morning.png",
+      "dur": 5.0,
+      "clock": "07:30:12",
+      "zoom": {
+        "at": 2.2,
+        "dur": 0.5,
+        "to": 1.4,
+        "cx": 0.5,
+        "cy": 0.72
+      },
+      "captions": [
+        {
+          "text": "아침 7시 30분, 세탁 끝",
+          "at": 0.1,
+          "y": 1230
+        },
+        {
+          "text": "\"곰팡이 0, 냄새 0\"",
+          "at": 1.4,
+          "y": 960
+        }
+      ],
+      "preview_at": 3.0
+    },
+    {
+      "name": "PPL",
+      "type": "image",
+      "file": "master.png",
+      "dur": 6.4,
+      "dim": 0.6,
+      "ppl": true,
+      "preview_at": 2.5
+    }
+  ]
+}

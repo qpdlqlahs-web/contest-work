@@ -1,0 +1,588 @@
+{
+  "script": "make_short_v2.py",
+  "style_guide": "스타일가이드.md v2 (2026-10-07 승인)",
+  "output": "out/v2/숏폼_v2.mp4",
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "codec": "H.264 (libx264, crf 18, yuv420p)",
+    "duration_s": 42.5,
+    "frames": 1275
+  },
+  "audio": {
+    "source": "audio/T2.wav",
+    "source_duration_s": 39.56,
+    "codec": "AAC 48 kHz stereo 256 kbps",
+    "volume_db": 2.2,
+    "song_trim_s": 39.295,
+    "crossfade_s": 0.025,
+    "crossfade_timeline_s": [
+      39.27,
+      39.295
+    ],
+    "crossfade_curve": "tri(선형)",
+    "song_fade_out": "없음(크로스페이드로 연결)",
+    "loop_end_fade_s": 0.03,
+    "loop_end_fade_timeline_s": [
+      42.47,
+      42.5
+    ],
+    "ending_card_start_s": 39.167,
+    "ending_card_length_s": 3.333,
+    "ending_audio_source_s": [
+      18.39,
+      21.62
+    ],
+    "ending_audio_timeline_s": [
+      39.27,
+      42.5
+    ],
+    "segments": [
+      {
+        "use": "본곡",
+        "source_range_s": [
+          0.0,
+          39.295
+        ],
+        "timeline_s": [
+          0.0,
+          39.295
+        ],
+        "end": "39.27~39.295s 25ms 크로스페이드로 엔딩 음원과 겹침(본곡 페이드아웃 없음)"
+      },
+      {
+        "use": "엔딩 배경음: 원곡 후렴 구간 반복 사용",
+        "lyric": "퍼가요 말고 허락부터! (허락부터!)",
+        "source_range_s": [
+          18.39,
+          21.62
+        ],
+        "timeline_s": [
+          39.27,
+          42.5
+        ],
+        "start": "크로스페이드 25ms(페이드인 없음)",
+        "end": "마지막 30ms 페이드 후 영상 처음으로 루프"
+      }
+    ],
+    "ending_audio": "원곡 T2.wav 18.39~21.62s 후렴('퍼가요 말고 허락부터! (허락부터!)')을 타임라인 39.27~42.5s에 한 번 더 사용. 새 음원·효과음 추가 없음",
+    "filter": "[1:a]asplit=2[x0][x1];[x0]atrim=end_sample=1886160,asetpts=PTS-STARTPTS[s0];[x1]atrim=start_sample=882720:end_sample=1037760,asetpts=PTS-STARTPTS,afade=t=out:st=3.2:d=0.03[s1];[s0][s1]acrossfade=ns=1200:c1=tri:c2=tri,volume=2.2dB[aout]",
+    "measured_integrated_lufs": -14.0,
+    "measured_true_peak_dbtp": -3.2,
+    "measured_lra_lu": 2.2
+  },
+  "manner_progress": {
+    "area_px": [
+      60,
+      1520,
+      940,
+      1640
+    ],
+    "font": "Do Hyeon 40",
+    "style": "잉크 칩 + 번호 원(켜짐: 노랑) + 보라 라벨 'AI 창작 매너 3'",
+    "items": [
+      {
+        "n": 1,
+        "label": "똑같이·비슷하게 NO",
+        "lit_from_s": 25.267
+      },
+      {
+        "n": 2,
+        "label": "허락·조건 먼저",
+        "lit_from_s": 11.033
+      },
+      {
+        "n": 3,
+        "label": "AI 활용 사실 밝히기",
+        "lit_from_s": 0.0
+      }
+    ],
+    "note": "진행 칩은 쇼츠 하단 UI 영역(y>1520)에 걸리지만 감독 결정으로 유지함: 심사는 파일로 보고, 엔딩 카드에 같은 정보(전체 문구 목록)가 있음. 엔딩 카드에서는 칩 대신 전체 문구 목록을 보여 줌"
+  },
+  "ai_notice": {
+    "text": "본 작품은 생성형 AI를 활용해 제작되었습니다",
+    "method": "화면 하단 상시 띠 — (0,1436)-(1080,1484) 잉크(#28223C) 바탕 + 흰 Pretendard Bold 30, 0초부터 영상 끝까지 전 프레임(엔딩 포함). 쇼츠 하단 UI(y>1520) 밖, 오른쪽 버튼열과 겹치지 않음",
+    "position_px": [
+      0,
+      1436,
+      1080,
+      1484
+    ],
+    "font": "Pretendard Bold 30",
+    "always_visible": true
+  },
+  "lyric_sync": {
+    "caption_lead_rule_s": [
+      0.1,
+      0.15
+    ],
+    "lines": [
+      {
+        "line": "…잠깐만!",
+        "onset_s": 2.24,
+        "caption_on_s": 2.133,
+        "lead_s": 0.107
+      },
+      {
+        "line": "마음에 쏙 든 사진 한 장, / 노래 한 소절",
+        "onset_s": 3.47,
+        "caption_on_s": 3.367,
+        "lead_s": 0.103
+      },
+      {
+        "line": "퍼 가기 전에 잠깐 멈춰, / 누가 만든 건지 봐요",
+        "onset_s": 7.37,
+        "caption_on_s": 7.267,
+        "lead_s": 0.103
+      },
+      {
+        "line": "출처만 쓰면 괜찮다? / 아니죠, 허락이 먼저",
+        "onset_s": 11.16,
+        "caption_on_s": 11.033,
+        "lead_s": 0.127
+      },
+      {
+        "line": "무료로 쓰고 싶다면 / 공유마당 이용 조건 확인!",
+        "onset_s": 14.8,
+        "caption_on_s": 14.667,
+        "lead_s": 0.133
+      },
+      {
+        "line": "퍼가요 말고 허락부터!",
+        "onset_s": 18.4,
+        "caption_on_s": 18.267,
+        "lead_s": 0.133
+      },
+      {
+        "line": "쓸 때는 출처까지!",
+        "onset_s": 21.68,
+        "caption_on_s": 21.567,
+        "lead_s": 0.113
+      },
+      {
+        "line": "AI한테 시킬 때도 / 똑같이·비슷하게는 NO!",
+        "onset_s": 25.38,
+        "caption_on_s": 25.267,
+        "lead_s": 0.113
+      },
+      {
+        "line": "창작자에게 박수 짝짝, / K-저작권 매너!",
+        "onset_s": 30.06,
+        "caption_on_s": 29.933,
+        "lead_s": 0.127
+      },
+      {
+        "line": "오늘부터 우리 모두 / 저작권 매너인!",
+        "onset_s": 35.68,
+        "caption_on_s": 35.567,
+        "lead_s": 0.113
+      }
+    ],
+    "line1_note": "1줄 '퍼가요~♡'는 0.00s부터 댓글 말풍선으로 표시(가이드 2장), 보컬 0.84s에 하트 펄스",
+    "echo_rows": [
+      {
+        "row": "(허락부터!)",
+        "onset_s": 20.8,
+        "caption_on_s": 20.667
+      },
+      {
+        "row": "(출처까지!)",
+        "onset_s": 24.18,
+        "caption_on_s": 24.067
+      }
+    ],
+    "no_accent": {
+      "onset_s": 29.33,
+      "pop_s": 29.3
+    },
+    "vocal_end_s": 39.1
+  },
+  "hits": {
+    "whistle_flash_shake_s": 2.133,
+    "no_flash_shake_s": 29.3,
+    "flash": "2프레임 흰 60%",
+    "shake": "6프레임 ±12px"
+  },
+  "scenes": [
+    {
+      "name": "A 퍼가요(P1 얼굴)",
+      "start_s": 0.0,
+      "end_s": 2.133,
+      "art": "P1",
+      "crop_from": [
+        310,
+        600,
+        1210,
+        1600
+      ],
+      "crop_to": [
+        332,
+        615,
+        1188,
+        1565
+      ]
+    },
+    {
+      "name": "B 잠깐만(P2 호루라기)",
+      "start_s": 2.133,
+      "end_s": 3.367,
+      "art": "P2",
+      "crop_from": [
+        139,
+        345,
+        1345,
+        1685
+      ],
+      "crop_to": [
+        142,
+        365,
+        1268,
+        1615
+      ]
+    },
+    {
+      "name": "C1 마음에 쏙 든(P1)",
+      "start_s": 3.367,
+      "end_s": 4.433,
+      "art": "P1",
+      "crop_from": [
+        511,
+        289,
+        1789,
+        1709
+      ],
+      "crop_to": [
+        539,
+        320,
+        1781,
+        1700
+      ]
+    },
+    {
+      "name": "C2 사진 한 장(P1 사진)",
+      "start_s": 4.433,
+      "end_s": 7.267,
+      "art": "P1",
+      "crop_from": [
+        1173,
+        720,
+        1947,
+        1580
+      ],
+      "crop_to": [
+        1214,
+        785,
+        1906,
+        1555
+      ]
+    },
+    {
+      "name": "D 퍼 가기 전에(P5 돋보기)",
+      "start_s": 7.267,
+      "end_s": 9.267,
+      "art": "P5",
+      "crop_from": [
+        105,
+        360,
+        1275,
+        1660
+      ],
+      "crop_to": [
+        189,
+        420,
+        1251,
+        1600
+      ]
+    },
+    {
+      "name": "D2 누가 만든 건지(P5 돋보기)",
+      "start_s": 9.267,
+      "end_s": 11.033,
+      "art": "P5",
+      "crop_from": [
+        431,
+        650,
+        1169,
+        1470
+      ],
+      "crop_to": [
+        482,
+        690,
+        1158,
+        1440
+      ]
+    },
+    {
+      "name": "E 출처만?(P2 복붙이)",
+      "start_s": 11.033,
+      "end_s": 12.8,
+      "art": "P2",
+      "crop_from": [
+        1295,
+        458,
+        2269,
+        1542
+      ],
+      "crop_to": [
+        1310,
+        485,
+        2210,
+        1485
+      ]
+    },
+    {
+      "name": "E2 아니죠(P2 레드카드)",
+      "start_s": 12.8,
+      "end_s": 14.667,
+      "art": "P2(효과음 덮기 전 원본)",
+      "crop_from": [
+        160,
+        378,
+        920,
+        1222
+      ],
+      "crop_to": [
+        200,
+        395,
+        920,
+        1195
+      ]
+    },
+    {
+      "name": "F 무료로(P5 요정)",
+      "start_s": 14.667,
+      "end_s": 16.0,
+      "art": "P5",
+      "crop_from": [
+        1015,
+        290,
+        2365,
+        1790
+      ],
+      "crop_to": [
+        1079,
+        310,
+        2321,
+        1690
+      ]
+    },
+    {
+      "name": "F2 공유마당(P5 태블릿)",
+      "start_s": 16.0,
+      "end_s": 18.267,
+      "art": "P5",
+      "crop_from": [
+        1060,
+        668,
+        2070,
+        1790
+      ],
+      "crop_to": [
+        1070,
+        685,
+        2060,
+        1785
+      ]
+    },
+    {
+      "name": "G 허락부터(P4 요정)",
+      "start_s": 18.267,
+      "end_s": 20.667,
+      "art": "P4",
+      "crop_from": [
+        1365,
+        353,
+        2325,
+        1420
+      ],
+      "crop_to": [
+        1368,
+        365,
+        2300,
+        1401
+      ]
+    },
+    {
+      "name": "G2 (허락부터!)(P4 요정)",
+      "start_s": 20.667,
+      "end_s": 21.567,
+      "art": "P4",
+      "crop_from": [
+        1360,
+        360,
+        2080,
+        1160
+      ],
+      "crop_to": [
+        1382,
+        395,
+        2058,
+        1145
+      ]
+    },
+    {
+      "name": "H 출처까지(P6 댓글·이름표)",
+      "start_s": 21.567,
+      "end_s": 24.067,
+      "art": "P6",
+      "crop_from": [
+        120,
+        496,
+        1100,
+        1584
+      ],
+      "crop_to": [
+        190,
+        530,
+        1090,
+        1530
+      ]
+    },
+    {
+      "name": "H2 (출처까지!)(P6 이름표)",
+      "start_s": 24.067,
+      "end_s": 25.267,
+      "art": "P6",
+      "crop_from": [
+        380,
+        650,
+        1120,
+        1472
+      ],
+      "crop_to": [
+        418,
+        670,
+        1102,
+        1430
+      ]
+    },
+    {
+      "name": "I AI한테(P3)",
+      "start_s": 25.267,
+      "end_s": 27.5,
+      "art": "P3",
+      "crop_from": [
+        642,
+        79,
+        2118,
+        1719
+      ],
+      "crop_to": [
+        640,
+        105,
+        2080,
+        1705
+      ]
+    },
+    {
+      "name": "I2 똑같이·비슷하게(P3 그림)",
+      "start_s": 27.5,
+      "end_s": 29.3,
+      "art": "P3",
+      "crop_from": [
+        126,
+        70,
+        1034,
+        1080
+      ],
+      "crop_to": [
+        122,
+        90,
+        968,
+        1030
+      ]
+    },
+    {
+      "name": "J NO(P4 로봇 X)",
+      "start_s": 29.3,
+      "end_s": 29.933,
+      "art": "P4",
+      "crop_from": [
+        1000,
+        389,
+        2100,
+        1611
+      ],
+      "crop_to": [
+        1009,
+        410,
+        2071,
+        1590
+      ]
+    },
+    {
+      "name": "K 창작자에게 박수(P6 v1 복붙이)",
+      "start_s": 29.933,
+      "end_s": 32.3,
+      "art": "_P6_v1(노트북 마크 제거)",
+      "crop_from": [
+        334,
+        468,
+        1488,
+        1750
+      ],
+      "crop_to": [
+        360,
+        490,
+        1485,
+        1740
+      ]
+    },
+    {
+      "name": "K2 K-저작권 매너(P6 v1 요정)",
+      "start_s": 32.3,
+      "end_s": 35.567,
+      "art": "_P6_v1(노트북 마크 제거)",
+      "crop_from": [
+        1276,
+        508,
+        2339,
+        1689
+      ],
+      "crop_to": [
+        1280,
+        515,
+        2335,
+        1687
+      ]
+    },
+    {
+      "name": "L 오늘부터(P6 v1 복붙이 그림)",
+      "start_s": 35.567,
+      "end_s": 39.167,
+      "art": "_P6_v1(노트북 마크 제거 + 스케치북 라벨 '그림: 복붙이')",
+      "crop_from": [
+        430,
+        515,
+        1480,
+        1682
+      ],
+      "crop_to": [
+        760,
+        900,
+        1480,
+        1700
+      ]
+    },
+    {
+      "name": "END 엔딩",
+      "start_s": 39.167,
+      "end_s": 42.5,
+      "art": "_P6_v1(엔딩 썸네일)",
+      "crop_from": [
+        575,
+        468,
+        2284,
+        1750
+      ],
+      "crop_to": [
+        575,
+        468,
+        2284,
+        1750
+      ]
+    }
+  ],
+  "fonts": "Bagel Fat One / Do Hyeon / Jua / Black Han Sans / Pretendard (SIL OFL 1.1, fonts/)"
+}
