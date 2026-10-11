@@ -14,3 +14,5 @@ __pycache__/
 /쇼핑쇼츠/output/**/*.wav
 /쇼핑쇼츠/output/**/_video.mp4
 /쇼핑쇼츠/output/**/frames/
+/쇼핑쇼츠/output/**/*.mp4
+/쇼핑쇼츠/output/**/*_preview.png

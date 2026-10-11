@@ -146,7 +146,7 @@
   {
    "name": "1단",
    "type": "image",
-   "file": "v3/F1.png",
+   "file": "v3/F1.jpg",
    "dur": 2.5,
    "zoom": {
     "at": 0.0,
@@ -227,7 +227,7 @@
   {
    "name": "3단b",
    "type": "image",
-   "file": "v3/F2.png",
+   "file": "v3/F2.jpg",
    "dur": 0.9,
    "captions": [
     {
@@ -259,7 +259,7 @@
   {
    "name": "점프",
    "type": "image",
-   "file": "v3/M0.png",
+   "file": "v3/M0.jpg",
    "dur": 1.0,
    "color": true,
    "clock": "07:02:00",
@@ -287,8 +287,8 @@
    "name": "펀치1",
    "type": "image",
    "files": [
-    "v3/M0.png",
-    "v3/M1a.png"
+    "v3/M0.jpg",
+    "v3/M1a.jpg"
    ],
    "swap_rot": 0.0,
    "dur": 2.5,
@@ -331,8 +331,8 @@
    "name": "펀치2",
    "type": "image",
    "files": [
-    "v3/M0.png",
-    "v3/M2a.png"
+    "v3/M0.jpg",
+    "v3/M2a.jpg"
    ],
    "swap_rot": 0.0,
    "dur": 2.2,
@@ -391,8 +391,8 @@
     }
    ],
    "files": [
-    "v3/M0.png",
-    "v3/M3.png"
+    "v3/M0.jpg",
+    "v3/M3.jpg"
    ],
    "durs": [
     0.4,
@@ -409,7 +409,7 @@
   {
    "name": "PPL",
    "type": "image",
-   "file": "v3/M3.png",
+   "file": "v3/M3.jpg",
    "dur": 5.5,
    "dim": 0.6,
    "color": true,
