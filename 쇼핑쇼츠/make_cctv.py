@@ -622,6 +622,21 @@ class Overlay:
         ImageDraw.Draw(layer).text((cx, cy + h // 2 + pad + ev.get("label_dy", 6)), self.safe_text(ev.get("label", "첨부"), kind),
                                    font=self.fonts.get(kind, ev.get("label_size", 26)), fill=(40, 38, 30), anchor="ma")
 
+    def product_tag(self, out: Image.Image, text: str, t: float, y: int = 300):
+        """상품 앞쪽 노출 태그(2026-10-11): 좌상단 작은 어두운 판 + 흰 글자, 왼쪽에서 0.15초 슬라이드인.
+        AI 화면 속 물건에 붙이지 않고 화면 모서리에만 둔다(상품을 AI로 그리지 않는 원칙)."""
+        k = prog(t, 0, 0.15)
+        if k <= 0:
+            return
+        ft = self.fonts.get("bold", 38)
+        layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+        d = ImageDraw.Draw(layer)
+        tw = d.textlength(text, font=ft)
+        d.rounded_rectangle([54, y, 54 + tw + 40, y + 62], radius=12, fill=(0, 0, 0, 175))
+        d.rectangle([54, y + 10, 60, y + 52], fill=(255, 210, 60, 255))
+        d.text((78, y + 31), text, font=ft, fill=(255, 255, 255), anchor="lm")
+        out.alpha_composite(fade(layer, k), (-int(80 * (1 - k)), 0))
+
     def disclosure(self, out: Image.Image, plate: bool = False):
         d = ImageDraw.Draw(out)
         if self.v5 and plate:   # 밝은(컬러) 컷: 알파 110 판을 깔아 광고 표시 대비 확보
@@ -1168,6 +1183,9 @@ def render_segment(seg: dict, ep: dict, ov: Overlay, ff: str, clips: Path, t0: f
                          plate=bool(st.get("plate")), size=st.get("size"))
             for tg in seg.get("tags", []):
                 ov.tag(out, tg["text"], lt, tg.get("at", 0), tg.get("x", 640), tg.get("y", 820))
+            pt = ep.get("product_tag")   # {"text":..., "from":초, "until":초, "y":px(선택)} 전체 시간 기준
+            if pt and not NO_CAPS and not seg.get("ppl") and pt.get("from", 0) <= gt < pt.get("until", 1e9):
+                ov.product_tag(out, pt["text"], gt - pt.get("from", 0), pt.get("y", 300))
             if seg.get("ppl"):
                 ppl_card(out, ep, ov.fonts, ov.cfg, lt, platform, dur)
             ov.disclosure(out, bool(seg.get("color")))

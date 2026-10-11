@@ -1,0 +1,1073 @@
+{
+ "pinned_comment": "이 포스팅은 네이버 쇼핑 커넥트 활동의 일환으로, 판매 발생 시 수수료를 제공받습니다.\n이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.\n영상은 AI 상황극(연출)입니다.\n\n새벽 3시 현관, 슬리퍼 2짝의 출근길을 판독해 봤습니다. 다음엔 어디를 판독해 볼까요? 장소 제보 받아요 👇\n판독 요청: 코기는 길 안내원일까, 수고비 받는 경비일까?",
+ "price_date": "10/10",
+ "ppl_layout": "v6",
+ "ppl_label": "[광고] PPL",
+ "ppl_notes_lines": false,
+ "ppl_cta": {
+  "youtube": "링크는 영상 설명란에",
+  "clip": "화면 스티커를 눌러 보세요"
+ },
+ "ir_look": true,
+ "bgm": "bgm_sneaky.wav",
+ "bgm_vol": 0.5,
+ "title": "겨울 거실 바닥 차가울 때 털 거실화 1만원대 [AI 상황극] 새벽 3시 CCTV",
+ "titles": [
+  "겨울 거실 바닥 차가울 때 털 거실화 1만원대 [AI 상황극] 새벽 3시 CCTV",
+  "부모님 실내화 선물 1만원대 털 거실화 [AI 상황극] 새벽 3시 CCTV",
+  "겨울 털 실내화 앞막힘 거실화 1만원대, 코기가 챙긴 한 짝 [AI 상황극]"
+ ],
+ "desc_first_line": "[AI 상황극] 영상 속 장면은 AI 연출이며 실제 제품의 성능·외형과 다릅니다.",
+ "aeo_line": "송강 털 거실화(앞막힘형, 회색·분홍 니트 골지 갑피, 털 안감)는 네이버 기준 10,900원(10/10 기준)이고, 쿠팡의 메이스 털 실내화는 11,900원입니다. 영상은 AI 상황극입니다.",
+ "hashtags": [
+  "#AI상황극",
+  "#겨울실내화",
+  "#털실내화",
+  "#부모님선물",
+  "#새벽3시CCTV"
+ ],
+ "cam": "ENTRY CAM",
+ "date": "2026-10-14",
+ "clock": "03:14:20",
+ "site_label": {
+  "text": "밤살림공사 제3현장 · 작업 #011",
+  "from": 3.0,
+  "until": 12.5
+ },
+ "ai_label": {
+  "big": {
+   "text": "광고 · AI 상황극",
+   "size": 44,
+   "until": 3.0
+  },
+  "text": "AI 연출",
+  "size": 34,
+  "alpha": 190
+ },
+ "replay_y": 300,
+ "ppl_notes": [],
+ "ppl_headline": "코기 몫까지, 한 켤레 더?",
+ "bgm_mute": [
+  [
+   4.5,
+   4.8
+  ],
+  [
+   9.9,
+   12.5
+  ]
+ ],
+ "scanline": false,
+ "limiter": 0.8,
+ "product": {
+  "store": "네이버",
+  "name": "송강 층간소음방지 겨울 쿠션 털 거실화 거실 실내화 실내 슬리퍼 (SongGang)",
+  "short": "송강 층간소음방지 겨울 쿠션 털 거실화 거실 실내화 실내 슬리퍼 (SongGang)",
+  "role": "앞막힘형 · 회색·분홍 니트 골지 갑피 · 털 안감",
+  "price": 10900,
+  "reviews": 81,
+  "rating": 4.86,
+  "aff_type": "쇼핑커넥트",
+  "link": "https://naver.me/xIF6OIKh"
+ },
+ "product_alt": {
+  "store": "쿠팡",
+  "name": "메이스 폭신폭신 털 실내화 슬리퍼",
+  "short": "메이스 폭신폭신 털 실내화 슬리퍼",
+  "option": "XL(260~265)/브라운",
+  "price": 11900,
+  "reviews": 14,
+  "aff_type": "쿠팡파트너스",
+  "link": "https://link.coupang.com/a/hJqyjAdTXg"
+ },
+ "thumbnail": {
+  "seg": "작전1c",
+  "t": 0.6,
+  "circles": [],
+  "ai_tag": "AI 상황극",
+  "text": [
+   "코기가 보면 얼음",
+   "슬리퍼 2짝 → 현관"
+  ]
+ },
+ "upload_checks": [
+  "업로드 당일 네이버(10,900원/평점 4.86/리뷰 81)·쿠팡(11,900원/상품평 14) 가격·리뷰 재확인. 둘 중 하나가 2만원대·9천원대로 바뀌면 제목의 '1만원대' 수정",
+  "쿠팡 상품명 전체 원문 재확인(현재는 '메이스 폭신폭신 털 실내화 슬리퍼'까지만 캡처됨) 및 평점 확인(미확인이라 PPL에서 평점 생략)",
+  "쇼핑커넥트 수수료율(5%)·정산 정보는 어디에도 노출 금지(약관 제5조·제8조)",
+  "자막·제목·설명·댓글에 효능 단어(따뜻·보온·포근·시림·층간소음 차단/방지 효과) 없음. '층간소음방지'는 PPL 카드의 네이버 상품명 원문에만 존재",
+  "영상 속 슬리퍼(머스터드 플러시, 매끈한 털, 라벨 없음)가 판매 상품(회색·분홍 니트 골지, 사각 라벨)·쿠팡 상품(브라운)과 외형이 다른지 PPL 카드와 나란히 확인",
+  "대가성 문구 2종이 설명란과 고정 댓글에 토씨 그대로 들어갔는지, 유료 프로모션 체크, 변경·합성 콘텐츠 체크",
+  "제목·설명·댓글·해시태그에 실제 목격 암시어(#실제상황 #진짜 #실화) 없음. 공개는 10/14 이후"
+ ],
+ "_todo": [
+  "[기준일] 가격·리뷰·평점은 10/10 기준(네이버 10,900원 / 81 / 4.86, 쿠팡 11,900원 / 14 / 평점 미확인). 업로드 직전 재확인.",
+  "[고른 이유] 영수 님이 직접 확정(plan.md 초안 참고). 확정 전에는 게시 금지.",
+  "[미구현 키, editor 병행 구현 필요] 세그먼트 'overlays' 배열(type: card, dashed_box, label, sfx_text, progress, inset, eyes, mask_layers, handwrite, end_card). 'stamps[].static'(도장을 슬램 애니메이션과 효과음 없이 완성 상태로 표시). 'worklog.at'가 음수면 슬라이드업 없이 완성 상태. 구현 전에는 렌더 금지. stamps는 쓰면 효과음이 자동으로 붙으므로 라벨용으로 쓰지 말 것.",
+  "[CAM 2 vs 메인 cam] 메인 cam 이름은 'ENTRY CAM'으로 두어 인셋 'CAM 2'와 혼동되지 않게 했다(EP10 아침 컷의 CAM 02 방식은 쓰지 않음). 인셋 첫 등장(작전1c)은 'CAM 2 · 목격자 두루', 둘째(작전3c)는 'CAM 2'.",
+  "[글꼴] 손글씨 '수고비 인정'용 글꼴이 assets/fonts에 없다. typographer가 OFL 손글씨 글꼴의 라이선스를 확인해 지정. 미확정 시 NanumMyeongjo 빨간 잉크 -4도로 대체.",
+  "[효과음 대체] 전용 효과음 없음: 종이 착(stamp.wav 0.35), 종종(tadak.wav 저음량 반복), 새소리(flutter.wav), 끽(chiik.wav), 쓰읍·흠칫(fusu.wav), 사각(chijik.wav). 부적절하면 make_sfx.py로 합성 추가 후 sfx 키 교체.",
+  "[좌표 미확정] overlays의 pos·target, alerts.box, stamps 좌표, zoom cx·cy는 M0·S2·S3·M1 이미지 확정 후 조정. 하단 자막 y=1300은 preview_at 프레임에서 빨간 영역 확인 후 조정.",
+  "[파일명 가정] V1~V3.mp4, M0/M1/M1b/M2/N1/S2a~c/S3/S3b/S4a~c/CAM2a/CAM2b.png. 정지 컷은 영상 실제 프레임 캡처로 대체될 수 있음(plan.md 7·8장).",
+  "[합성] 반전a는 3단 마스크(V3 원본, 슬리퍼 정지 패치, 코기 마스크). 실패 시 S4a~c 정지 3장 교차(0cr). 작전1c(얼음)는 V2 1.1초 프레임 정지 + 눈알 오버레이.",
+  "[길이] 총 30.0초. 들킴 9.2초, 반전 시작 10.8초. 일지는 a·b 두 세그먼트(1.6+1.5)로 나눠 모든 세그먼트가 2.5초 이하(PPL 5.5초는 작전 컷이 아니므로 예외).",
+  "[신규 자막] 작전3a의 배지 ③ '뛰자!'는 planner가 추가한 자막(콘셉트 v2.1에는 의성어만 있었음). critic이 과밀로 판단하면 삭제."
+ ],
+ "segments": [
+  {
+   "name": "훅a",
+   "type": "video",
+   "file": "V1.mp4",
+   "start": 0.0,
+   "dur": 1.5,
+   "overlays": [
+    {
+     "type": "card",
+     "lines": [
+      {
+       "text": "07:30 출근 전 슬리퍼 2짝 → 현관",
+       "at": 0.0
+      },
+      {
+       "text": "※ 코기가 보면 얼음",
+       "at": 0.9
+      }
+     ],
+     "seal": "본부",
+     "seal_at": 1.0,
+     "y": 0.16,
+     "until_global": 3.0
+    },
+    {
+     "type": "dashed_box",
+     "target": "mat",
+     "at": 0.0
+    }
+   ],
+   "preview_at": 1.0,
+   "sfx": [
+    {
+     "file": "stamp.wav",
+     "at": 0.0,
+     "vol": 0.35
+    },
+    {
+     "file": "tadak.wav",
+     "at": 0.0,
+     "vol": 0.22
+    },
+    {
+     "file": "tadak.wav",
+     "at": 0.3,
+     "vol": 0.22
+    },
+    {
+     "file": "tadak.wav",
+     "at": 0.6,
+     "vol": 0.22
+    },
+    {
+     "file": "tadak.wav",
+     "at": 0.9,
+     "vol": 0.22
+    },
+    {
+     "file": "tadak.wav",
+     "at": 1.2,
+     "vol": 0.22
+    }
+   ]
+  },
+  {
+   "name": "훅b",
+   "type": "video",
+   "file": "V1.mp4",
+   "start": 1.5,
+   "dur": 1.5,
+   "overlays": [
+    {
+     "type": "card",
+     "cont": true,
+     "lines": [
+      {
+       "text": "07:30 출근 전 슬리퍼 2짝 → 현관",
+       "at": 0.0
+      },
+      {
+       "text": "※ 코기가 보면 얼음",
+       "at": 0.0
+      }
+     ],
+     "y": 0.16,
+     "until": 1.5,
+     "exit": "slide_up"
+    },
+    {
+     "type": "dashed_box",
+     "target": "mat",
+     "at": 0.0
+    }
+   ],
+   "preview_at": 0.6,
+   "sfx": [
+    {
+     "file": "tadak.wav",
+     "at": 0.0,
+     "vol": 0.22
+    },
+    {
+     "file": "tadak.wav",
+     "at": 0.3,
+     "vol": 0.22
+    },
+    {
+     "file": "tadak.wav",
+     "at": 0.6,
+     "vol": 0.22
+    },
+    {
+     "file": "tadak.wav",
+     "at": 0.9,
+     "vol": 0.22
+    },
+    {
+     "file": "tadak.wav",
+     "at": 1.2,
+     "vol": 0.22
+    }
+   ]
+  },
+  {
+   "name": "작전1a",
+   "type": "video",
+   "file": "V1.mp4",
+   "start": 3.0,
+   "dur": 0.9,
+   "captions": [
+    {
+     "text": "무궁화 꽃이…",
+     "at": 0.0,
+     "y": 1300,
+     "font": "radio",
+     "radio": true,
+     "badge": 1
+    }
+   ],
+   "overlays": [
+    {
+     "type": "label",
+     "text": "코기 · 수면 중 zzz",
+     "at": 0.0,
+     "pos": [
+      0.62,
+      0.4
+     ]
+    },
+    {
+     "type": "label",
+     "text": "⚠ 미끄럼",
+     "at": 0.0,
+     "pos": [
+      0.18,
+      0.48
+     ]
+    },
+    {
+     "type": "progress",
+     "label": "현관까지",
+     "from": 30,
+     "to": 30,
+     "at": 0.0
+    },
+    {
+     "type": "dashed_box",
+     "target": "mat",
+     "at": 0.0
+    }
+   ],
+   "preview_at": 0.4,
+   "sfx": [
+    {
+     "file": "tadak.wav",
+     "at": 0.0,
+     "vol": 0.22
+    },
+    {
+     "file": "tadak.wav",
+     "at": 0.3,
+     "vol": 0.22
+    },
+    {
+     "file": "tadak.wav",
+     "at": 0.6,
+     "vol": 0.22
+    }
+   ]
+  },
+  {
+   "name": "작전1b",
+   "type": "video",
+   "file": "V2.mp4",
+   "start": 0.5,
+   "dur": 0.6,
+   "captions": [
+    {
+     "text": "무궁화 꽃이…",
+     "at": 0.0,
+     "y": 1300,
+     "font": "radio",
+     "radio": true,
+     "badge": 1,
+     "cont": true
+    }
+   ],
+   "overlays": [
+    {
+     "type": "progress",
+     "label": "현관까지",
+     "from": 30,
+     "to": 30,
+     "at": 0.0
+    }
+   ],
+   "preview_at": 0.3,
+   "sfx": [
+    {
+     "file": "beep.wav",
+     "at": 0.0,
+     "vol": 0.5
+    }
+   ]
+  },
+  {
+   "name": "작전1c",
+   "type": "video",
+   "file": "V2.mp4",
+   "start": 1.1,
+   "src_dur": 0.05,
+   "dur": 1.0,
+   "captions": [
+    {
+     "text": "얼음!",
+     "at": 0.0,
+     "y": 1300,
+     "font": "radio",
+     "radio": true,
+     "size": 84
+    }
+   ],
+   "overlays": [
+    {
+     "type": "eyes",
+     "target": "slippers",
+     "at": 0.0,
+     "pop": true
+    },
+    {
+     "type": "inset",
+     "file": "CAM2a.png",
+     "label": "CAM 2 · 목격자 두루",
+     "pos": "br",
+     "at": 0.15,
+     "dur": 0.8,
+     "pop": true
+    },
+    {
+     "type": "progress",
+     "label": "현관까지",
+     "from": 30,
+     "to": 30,
+     "at": 0.0
+    }
+   ],
+   "zoom": {
+    "at": 0.0,
+    "dur": 1.0,
+    "from": 1.0,
+    "to": 1.06,
+    "cx": 0.5,
+    "cy": 0.5
+   },
+   "preview_at": 0.5,
+   "sfx": [
+    {
+     "file": "pop.wav",
+     "at": 0.0,
+     "vol": 0.8
+    },
+    {
+     "file": "pop.wav",
+     "at": 0.15,
+     "vol": 0.5
+    }
+   ]
+  },
+  {
+   "name": "작전2a",
+   "type": "image",
+   "file": "S2a.png",
+   "dur": 0.9,
+   "captions": [
+    {
+     "text": "…돌아서 가자",
+     "at": 0.0,
+     "y": 1300,
+     "font": "radio",
+     "radio": true,
+     "badge": 2
+    }
+   ],
+   "zoom": {
+    "at": 0.0,
+    "dur": 0.9,
+    "from": 1.0,
+    "to": 1.06,
+    "cx": 0.45,
+    "cy": 0.55
+   },
+   "overlays": [
+    {
+     "type": "progress",
+     "label": "현관까지",
+     "from": 30,
+     "to": 30,
+     "at": 0.0
+    }
+   ],
+   "preview_at": 0.5,
+   "sfx": [
+    {
+     "file": "tadak.wav",
+     "at": 0.3,
+     "vol": 0.3
+    },
+    {
+     "file": "tadak.wav",
+     "at": 0.6,
+     "vol": 0.3
+    }
+   ]
+  },
+  {
+   "name": "작전2b",
+   "type": "image",
+   "file": "S2b.png",
+   "dur": 1.1,
+   "captions": [
+    {
+     "text": "…돌아서 가자",
+     "at": 0.0,
+     "y": 1300,
+     "font": "radio",
+     "radio": true,
+     "badge": 2,
+     "cont": true
+    }
+   ],
+   "overlays": [
+    {
+     "type": "sfx_text",
+     "text": "척",
+     "at": 0.5,
+     "pos": [
+      0.42,
+      0.52
+     ]
+    },
+    {
+     "type": "progress",
+     "label": "현관까지",
+     "from": 30,
+     "to": 30,
+     "at": 0.0
+    }
+   ],
+   "zoom": {
+    "at": 0.0,
+    "dur": 1.1,
+    "from": 1.0,
+    "to": 1.25,
+    "cx": 0.62,
+    "cy": 0.45
+   },
+   "preview_at": 0.8,
+   "sfx": [
+    {
+     "file": "thud.wav",
+     "at": 0.5,
+     "vol": 0.5
+    }
+   ]
+  },
+  {
+   "name": "작전2c",
+   "type": "image",
+   "file": "S2c.png",
+   "dur": 1.0,
+   "overlays": [
+    {
+     "type": "progress",
+     "label": "현관까지",
+     "from": 30,
+     "to": 60,
+     "at": 0.1,
+     "dur": 0.6
+    }
+   ],
+   "zoom": {
+    "at": 0.0,
+    "dur": 1.0,
+    "from": 1.15,
+    "to": 1.0,
+    "cx": 0.55,
+    "cy": 0.4
+   },
+   "preview_at": 0.7,
+   "sfx": [
+    {
+     "file": "tadak.wav",
+     "at": 0.45,
+     "vol": 0.3
+    },
+    {
+     "file": "tadak.wav",
+     "at": 0.75,
+     "vol": 0.3
+    }
+   ]
+  },
+  {
+   "name": "작전3a",
+   "type": "video",
+   "file": "V1.mp4",
+   "start": 3.9,
+   "speed": 1.5,
+   "dur": 0.7,
+   "captions": [
+    {
+     "text": "뛰자!",
+     "at": 0.0,
+     "y": 1300,
+     "font": "radio",
+     "radio": true,
+     "badge": 3
+    }
+   ],
+   "overlays": [
+    {
+     "type": "sfx_text",
+     "text": "타다닥",
+     "at": 0.05,
+     "pos": [
+      0.5,
+      0.62
+     ]
+    },
+    {
+     "type": "progress",
+     "label": "현관까지",
+     "from": 60,
+     "to": 60,
+     "at": 0.0
+    }
+   ],
+   "preview_at": 0.4,
+   "sfx": [
+    {
+     "file": "tadak.wav",
+     "at": 0.0,
+     "vol": 0.6
+    },
+    {
+     "file": "tadak.wav",
+     "at": 0.15,
+     "vol": 0.6
+    },
+    {
+     "file": "tadak.wav",
+     "at": 0.3,
+     "vol": 0.6
+    },
+    {
+     "file": "tadak.wav",
+     "at": 0.45,
+     "vol": 0.6
+    },
+    {
+     "file": "tadak.wav",
+     "at": 0.6,
+     "vol": 0.6
+    }
+   ]
+  },
+  {
+   "name": "작전3b",
+   "type": "video",
+   "file": "V3.mp4",
+   "start": 0.0,
+   "src_dur": 0.05,
+   "dur": 0.7,
+   "alerts": [
+    {
+     "at": 0.05,
+     "box": [
+      0.55,
+      0.16,
+      0.95,
+      0.38
+     ]
+    }
+   ],
+   "stamps": [
+    {
+     "text": "들킴",
+     "at": 0.1,
+     "x": 330,
+     "y": 950,
+     "font": "osd",
+     "plate": true,
+     "size": 84
+    }
+   ],
+   "overlays": [
+    {
+     "type": "label",
+     "text": "코기 · 기상 · 꼬리 붕붕",
+     "at": 0.0,
+     "pos": [
+      0.6,
+      0.4
+     ]
+    }
+   ],
+   "zoom": {
+    "at": 0.0,
+    "dur": 0.7,
+    "from": 1.0,
+    "to": 1.05,
+    "cx": 0.7,
+    "cy": 0.3
+   },
+   "preview_at": 0.4,
+   "sfx": [
+    {
+     "file": "beep3.wav",
+     "at": 0.0,
+     "vol": 0.8
+    }
+   ]
+  },
+  {
+   "name": "작전3c",
+   "type": "image",
+   "file": "S3b.png",
+   "dur": 0.9,
+   "overlays": [
+    {
+     "type": "sfx_text",
+     "text": "흠칫!",
+     "at": 0.05,
+     "pos": [
+      0.4,
+      0.6
+     ]
+    },
+    {
+     "type": "inset",
+     "file": "CAM2b.png",
+     "label": "CAM 2",
+     "pos": "br",
+     "at": 0.05,
+     "dur": 0.8,
+     "pop": true
+    }
+   ],
+   "preview_at": 0.5,
+   "sfx": [
+    {
+     "file": "fusu.wav",
+     "at": 0.1,
+     "vol": 0.3
+    }
+   ]
+  },
+  {
+   "name": "반전a",
+   "type": "video",
+   "file": "V3.mp4",
+   "start": 0.6,
+   "dur": 1.7,
+   "captions": [
+    {
+     "text": "어? 안 잡네?",
+     "at": 1.05,
+     "y": 1300,
+     "font": "radio",
+     "radio": true
+    }
+   ],
+   "overlays": [
+    {
+     "type": "sfx_text",
+     "text": "끽!",
+     "at": 0.95,
+     "pos": [
+      0.38,
+      0.55
+     ]
+    },
+    {
+     "type": "mask_layers",
+     "order": [
+      "V3(원본)",
+      "슬리퍼 정지 패치(S3 시작 프레임)",
+      "코기 마스크(V3 프레임별)"
+     ],
+     "fallback": "S4a~c 정지 3장 교차"
+    }
+   ],
+   "preview_at": 1.3,
+   "sfx": [
+    {
+     "file": "tadak.wav",
+     "at": 0.0,
+     "vol": 0.8
+    },
+    {
+     "file": "tadak.wav",
+     "at": 0.22,
+     "vol": 0.8
+    },
+    {
+     "file": "tadak.wav",
+     "at": 0.44,
+     "vol": 0.8
+    },
+    {
+     "file": "tadak.wav",
+     "at": 0.66,
+     "vol": 0.8
+    },
+    {
+     "file": "tadak.wav",
+     "at": 0.88,
+     "vol": 0.8
+    },
+    {
+     "file": "chiik.wav",
+     "at": 0.95,
+     "vol": 0.9
+    }
+   ]
+  },
+  {
+   "name": "반전b",
+   "type": "image",
+   "files": [
+    "S4a.png",
+    "S4b.png",
+    "S4c.png"
+   ],
+   "durs": [
+    0.34,
+    0.33,
+    0.33
+   ],
+   "swap_rot": 0.0,
+   "dur": 1.0,
+   "captions": [
+    {
+     "text": "…길 안내?",
+     "at": 0.0,
+     "y": 1300,
+     "font": "radio",
+     "radio": true
+    }
+   ],
+   "overlays": [
+    {
+     "type": "progress",
+     "label": "현관까지",
+     "from": 60,
+     "to": 90,
+     "at": 0.1,
+     "dur": 0.6
+    }
+   ],
+   "preview_at": 0.6,
+   "sfx": [
+    {
+     "file": "tadak.wav",
+     "at": 0.7,
+     "vol": 0.3
+    }
+   ]
+  },
+  {
+   "name": "단서",
+   "type": "image",
+   "file": "N1.png",
+   "dur": 1.4,
+   "clock": "03:52:09",
+   "frame_drop": {
+    "frames": 2,
+    "clock_jump": 1
+   },
+   "captions": [
+    {
+     "text": "…수고비?",
+     "at": 0.5,
+     "y": 1300,
+     "font": "radio",
+     "radio": true
+    }
+   ],
+   "overlays": [
+    {
+     "type": "label",
+     "text": "38분 후",
+     "at": 0.0,
+     "until": 0.6,
+     "pos": [
+      0.5,
+      0.12
+     ],
+     "style": "time_jump"
+    }
+   ],
+   "zoom": {
+    "at": 0.0,
+    "dur": 1.4,
+    "from": 1.0,
+    "to": 1.08,
+    "cx": 0.55,
+    "cy": 0.5
+   },
+   "preview_at": 0.9,
+   "sfx": [
+    {
+     "file": "thud.wav",
+     "at": 0.9,
+     "vol": 0.5
+    }
+   ]
+  },
+  {
+   "name": "아침a",
+   "type": "image",
+   "file": "M1.png",
+   "dur": 1.6,
+   "color": true,
+   "clock": "07:30:12",
+   "captions": [
+    {
+     "text": "07:30 한 짝만 도착",
+     "at": 0.0,
+     "y": 1300,
+     "font": "radio",
+     "radio": true
+    }
+   ],
+   "zoom": {
+    "at": 0.0,
+    "dur": 1.6,
+    "from": 1.0,
+    "to": 1.04,
+    "cx": 0.5,
+    "cy": 0.5
+   },
+   "preview_at": 0.8,
+   "sfx": [
+    {
+     "file": "flutter.wav",
+     "at": 0.0,
+     "vol": 0.35
+    }
+   ]
+  },
+  {
+   "name": "아침b",
+   "type": "image",
+   "files": [
+    "M1.png",
+    "M1b.png"
+   ],
+   "durs": [
+    0.8,
+    0.7
+   ],
+   "swap_rot": 0.0,
+   "dur": 1.5,
+   "color": true,
+   "clock": "07:30:20",
+   "zoom": {
+    "at": 0.0,
+    "dur": 0.2,
+    "from": 1.0,
+    "to": 1.8,
+    "cx": 0.6,
+    "cy": 0.45
+   },
+   "preview_at": 1.0,
+   "sfx": [
+    {
+     "file": "fusu.wav",
+     "at": 0.1,
+     "vol": 0.5
+    }
+   ]
+  },
+  {
+   "name": "아침c",
+   "type": "image",
+   "file": "M2.png",
+   "dur": 1.4,
+   "color": true,
+   "clock": "07:31:02",
+   "captions": [
+    {
+     "text": "…한 짝 어디?",
+     "at": 0.3,
+     "y": 1300,
+     "font": "radio",
+     "radio": true
+    }
+   ],
+   "overlays": [
+    {
+     "type": "label",
+     "text": "집주인 · 07:31 출근",
+     "at": 0.0,
+     "pos": [
+      0.45,
+      0.45
+     ]
+    }
+   ],
+   "preview_at": 0.8,
+   "sfx": [
+    {
+     "file": "beep.wav",
+     "at": 0.0,
+     "vol": 0.4
+    }
+   ]
+  },
+  {
+   "name": "일지a",
+   "type": "image",
+   "file": "M2.png",
+   "dur": 1.6,
+   "dim": 0.6,
+   "color": true,
+   "clock": "07:31:20",
+   "worklog": {
+    "title": "작업일지 #011",
+    "lines": [
+     "결과: 1짝 정렬",
+     "1짝: 코기가 압수"
+    ],
+    "approval": false,
+    "at": 0.0
+   },
+   "stamps": [
+    {
+     "text": "승인",
+     "at": 1.2,
+     "x": 790,
+     "y": 990,
+     "font": "doc",
+     "shape": "circle",
+     "dia": 220
+    }
+   ],
+   "preview_at": 1.5,
+   "sfx": [
+    {
+     "file": "stamp.wav",
+     "at": 0.0,
+     "vol": 0.5
+    }
+   ]
+  },
+  {
+   "name": "일지b",
+   "type": "image",
+   "file": "M2.png",
+   "dur": 1.5,
+   "dim": 0.6,
+   "color": true,
+   "clock": "07:31:22",
+   "worklog": {
+    "title": "작업일지 #011",
+    "lines": [
+     "결과: 1짝 정렬",
+     "1짝: 코기가 압수"
+    ],
+    "approval": false,
+    "at": -1.0
+   },
+   "stamps": [
+    {
+     "text": "승인",
+     "at": 0.0,
+     "x": 790,
+     "y": 990,
+     "font": "doc",
+     "shape": "circle",
+     "dia": 220,
+     "static": true
+    }
+   ],
+   "overlays": [
+    {
+     "type": "handwrite",
+     "text": "수고비 인정",
+     "at": 0.3,
+     "pos": [
+      0.55,
+      0.6
+     ],
+     "tilt": -4,
+     "color": "red_ink"
+    }
+   ],
+   "preview_at": 1.2,
+   "sfx": [
+    {
+     "file": "chijik.wav",
+     "at": 0.3,
+     "vol": 0.4
+    }
+   ]
+  },
+  {
+   "name": "PPL",
+   "type": "image",
+   "file": "M1.png",
+   "dur": 5.5,
+   "dim": 0.6,
+   "color": true,
+   "ppl": true,
+   "preview_at": 2.5
+  },
+  {
+   "name": "끝",
+   "type": "image",
+   "file": "M1.png",
+   "dur": 2.0,
+   "dim": 0.6,
+   "color": true,
+   "overlays": [
+    {
+     "type": "end_card",
+     "lines": [
+      "광고 · 이 영상은 AI 상황극(연출)입니다",
+      "영상 속 슬리퍼는 판매 상품과 외형이 다릅니다"
+     ],
+     "at": 0.0
+    }
+   ],
+   "preview_at": 1.0
+  }
+ ]
+}
