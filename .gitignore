@@ -3,3 +3,14 @@
 !/쇼핑쇼츠/
 !/.gitignore
 __pycache__/
+# 생성·다운로드 미디어 (용량이 커서 git 밖에 둔다. 효과음은 assets/sfx/make_*.py로 재생성)
+/쇼핑쇼츠/assets/fonts/*.ttf
+/쇼핑쇼츠/assets/fonts/*.otf
+/쇼핑쇼츠/assets/sfx/*.wav
+/쇼핑쇼츠/assets/clips/EP11/v3/*.png
+/쇼핑쇼츠/assets/clips/EP11/v3/*.url
+/쇼핑쇼츠/assets/clips/EP11/v3/url*.txt
+/쇼핑쇼츠/assets/clips/EP11/v3/_*
+/쇼핑쇼츠/output/**/*.wav
+/쇼핑쇼츠/output/**/_video.mp4
+/쇼핑쇼츠/output/**/frames/

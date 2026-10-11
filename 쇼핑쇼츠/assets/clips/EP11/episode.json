@@ -33,7 +33,7 @@
  "bgm_vol": 0.3,
  "bgm_mute": [
   [
-   16.0,
+   16.4,
    16.9
   ]
  ],
@@ -89,32 +89,34 @@
   "[쿠팡] 콜드 리드 '끝 카드 과밀' 지적으로 이번 편은 네이버 1상품만. 쿠팡 정보는 _coupang_backup에 보관(다시 쓰려면 product_alt로 이름 변경)",
   "[효과음] 쩡(서리 갈라짐)·퍽(깃발)·팡파르 0.5초·띠용·현악 드론은 아직 파일이 없어 기존 효과음으로 대신 지정함. make_sfx.py로 합성 후 교체",
   "[BGM] creative 권장은 정색 다큐 톤 저음 드론. 지금은 bgm_sneaky 0.3",
-  "[좌표] alerts.box, zoom cx·cy는 N0·F1 이미지 확정 후 조정",
-  "[A/B] 21초판(엄마 컷·쿠팡 줄 삭제)은 26초판 성과 확인 후 결정"
+  "[A/B] 21초판(엄마 컷·쿠팡 줄 삭제)은 26초판 성과 확인 후 결정",
+  "[소스] v3/ 폴더: V1·V2 영상(Seedance 2.0 mini 480p), F1·F2·M0·M1a·M2a·M3 이미지(Seedream 4.5). N0_final은 1차 이미지에 빈 소파를 로컬 합성. 총 17cr(10/11)",
+  "[대체] 버튼은 영상 대신 M0→M3 이미지 교차(2.5cr 절약), 펀치 b컷(다음 걸음) 대신 M0→발 등장 컷으로 스톱모션"
  ],
  "segments": [
   {
    "name": "훅",
    "type": "video",
-   "file": "V1.mp4",
+   "file": "v3/V1.mp4",
    "start": 0.0,
    "dur": 2.8,
    "alerts": [
     {
      "at": 0.2,
      "box": [
-      0.45,
-      0.5,
+      0.42,
+      0.44,
       0.8,
-      0.75
-     ]
+      0.74
+     ],
+     "until": 1.6
     }
    ],
    "captions": [
     {
      "text": "부모님 댁 거실 홈캠",
      "at": 0.0,
-     "y": 1300
+     "y": 400
     }
    ],
    "preview_at": 1.5,
@@ -144,15 +146,15 @@
   {
    "name": "1단",
    "type": "image",
-   "file": "F1.png",
+   "file": "v3/F1.png",
    "dur": 2.5,
    "zoom": {
     "at": 0.0,
     "dur": 2.5,
     "from": 1.0,
-    "to": 1.25,
-    "cx": 0.55,
-    "cy": 0.65
+    "to": 1.2,
+    "cx": 0.5,
+    "cy": 0.7
    },
    "captions": [
     {
@@ -173,7 +175,7 @@
   {
    "name": "2단",
    "type": "video",
-   "file": "V2.mp4",
+   "file": "v3/V2.mp4",
    "start": 0.0,
    "dur": 2.5,
    "captions": [
@@ -210,7 +212,7 @@
   {
    "name": "3단a",
    "type": "video",
-   "file": "V2.mp4",
+   "file": "v3/V2.mp4",
    "start": 2.5,
    "dur": 1.6,
    "captions": [
@@ -225,7 +227,7 @@
   {
    "name": "3단b",
    "type": "image",
-   "file": "F2.png",
+   "file": "v3/F2.png",
    "dur": 0.9,
    "captions": [
     {
@@ -257,7 +259,7 @@
   {
    "name": "점프",
    "type": "image",
-   "file": "M0.png",
+   "file": "v3/M0.png",
    "dur": 1.0,
    "color": true,
    "clock": "07:02:00",
@@ -285,10 +287,9 @@
    "name": "펀치1",
    "type": "image",
    "files": [
-    "M1a.png",
-    "M1b.png"
+    "v3/M0.png",
+    "v3/M1a.png"
    ],
-   "swap": 0.4,
    "swap_rot": 0.0,
    "dur": 2.5,
    "color": true,
@@ -304,29 +305,35 @@
    "sfx": [
     {
      "file": "tadak.wav",
-     "at": 0.0,
-     "vol": 0.4
+     "at": 0.35,
+     "vol": 0.5
     },
     {
      "file": "tadak.wav",
-     "at": 0.8,
-     "vol": 0.4
-    },
-    {
-     "file": "tadak.wav",
-     "at": 1.6,
+     "at": 1.0,
      "vol": 0.4
     }
-   ]
+   ],
+   "durs": [
+    0.35,
+    2.15
+   ],
+   "zoom": {
+    "at": 0.0,
+    "dur": 2.5,
+    "from": 1.15,
+    "to": 1.15,
+    "cx": 0.5,
+    "cy": 0.6
+   }
   },
   {
    "name": "펀치2",
    "type": "image",
    "files": [
-    "M2a.png",
-    "M2b.png"
+    "v3/M0.png",
+    "v3/M2a.png"
    ],
-   "swap": 0.4,
    "swap_rot": 0.0,
    "dur": 2.2,
    "color": true,
@@ -342,26 +349,23 @@
    "sfx": [
     {
      "file": "pop.wav",
-     "at": 0.0,
-     "vol": 0.4
+     "at": 0.3,
+     "vol": 0.5
     },
     {
      "file": "pop.wav",
-     "at": 0.8,
-     "vol": 0.4
-    },
-    {
-     "file": "pop.wav",
-     "at": 1.6,
+     "at": 1.0,
      "vol": 0.4
     }
+   ],
+   "durs": [
+    0.3,
+    1.9
    ]
   },
   {
    "name": "버튼",
-   "type": "video",
-   "file": "V3.mp4",
-   "start": 0.0,
+   "type": "image",
    "dur": 2.8,
    "color": true,
    "clock": "07:02:07",
@@ -376,18 +380,36 @@
    "preview_at": 2.0,
    "sfx": [
     {
+     "file": "whistle.wav",
+     "at": 0.4,
+     "vol": 0.5
+    },
+    {
      "file": "pop.wav",
      "at": 0.9,
      "vol": 0.7
     }
-   ]
+   ],
+   "files": [
+    "v3/M0.png",
+    "v3/M3.png"
+   ],
+   "durs": [
+    0.4,
+    2.4
+   ],
+   "swap_rot": 0.0,
+   "bounce": {
+    "at": [
+     0.4
+    ],
+    "amp": 10
+   }
   },
   {
    "name": "PPL",
-   "type": "video",
-   "file": "V3.mp4",
-   "start": 2.7,
-   "src_dur": 0.05,
+   "type": "image",
+   "file": "v3/M3.png",
    "dur": 5.5,
    "dim": 0.6,
    "color": true,
@@ -405,5 +427,6 @@
   "reviews": 14,
   "aff_type": "쿠팡파트너스",
   "link": "https://link.coupang.com/a/hJqyjAdTXg"
- }
+ },
+ "ambience_vol": 0.06
 }
